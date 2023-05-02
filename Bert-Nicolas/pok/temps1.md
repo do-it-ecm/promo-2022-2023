@@ -1,15 +1,16 @@
 ---
-layout: layout/post.njk
+layout: layout/pok.njk
 
 title: "Jeu Mots croisés - Temps 1"
 authors:
   - Nicolas BERT
   - Jean-Baptiste DURAND
 
-tags: 
-    - 'POK'
-    - 'temps 1'
-    - 'un site chez moi'
+date: 2022-10-07
+
+tags:
+  - 'temps 1'
+  - 'un site chez moi'
 ---
 
 ## Ce qu'on a prévu pour le 1er point POK

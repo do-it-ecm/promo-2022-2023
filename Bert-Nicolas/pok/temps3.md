@@ -1,15 +1,16 @@
 ---
-layout: layout/post.njk
+layout: layout/pok.njk
 
 title: "Jeu Mots croisés - Temps 3"
 authors:
   - Nicolas BERT
   - Jean-Baptiste DURAND
 
-tags: 
-    - 'POK'
-    - 'temps 3'
-    - 'amelioration continue'
+date: 2023-01-25
+
+tags:
+  - 'temps 3'
+  - 'amelioration continue'
 ---
 
 ## Choses à faire durant ce temps 3

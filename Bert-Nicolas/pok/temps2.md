@@ -1,15 +1,16 @@
 ---
-layout: layout/post.njk
+layout: layout/pok.njk
 
 title: "Jeu Mots croisés - Temps 2"
 authors:
   - Nicolas BERT
   - Jean-Baptiste DURAND
 
-tags: 
-    - 'POK'
-    - 'temps 2'
-    - 'serveur distant'
+date: 2023-01-04
+
+tags:
+  - 'temps 2'
+  - 'serveur distant'
 ---
 
 ## Choses à faire durant ce temps 2
