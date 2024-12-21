@@ -10,10 +10,10 @@ authors:
 
 ### Temps 2
 
-- [Bases Dev Web HTML/CSS/JS](./MON_2.1)
-- [Back-end avec Node.js et Express](./MON_2.2)
+- [Bases Dev Web HTML/CSS/JS](./temps-2.1)
+- [Back-end avec Node.js et Express](./temps-2.2)
 
 ### Temps 3
 
-- [Débuter avec React.js](./MON_3.1)
-- [Initiation à la cybersécurité](./MON_3.2/)
+- [Débuter avec React.js](./temps-3.1)
+- [Initiation à la cybersécurité](./temps-3.2)

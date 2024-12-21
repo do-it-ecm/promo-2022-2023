@@ -25,16 +25,16 @@ Mon site : <http://node.stevia.ovh1.ec-m.fr/>
 
 ## Temps 1
 
-- [Architecture et développement](temps1)
+- [Architecture et développement](./temps-1/)
 
 ## Temps 2
 
-- [Fin de développement et déploiement sur VM ovh](temps2)
+- [Fin de développement et déploiement sur VM ovh](./temps-2/)
 
 ## Temps 3
 
-- [Déploiement avec Docker](temps3)
+- [Déploiement avec Docker](./temps-3/)
 
 ## Autres
 
-- [Go](Go)
+- [Go](./bonus/)

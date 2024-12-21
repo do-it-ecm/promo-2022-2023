@@ -14,11 +14,11 @@ L'ensemble de mes POK
 ## Planning des POK de Louise
 
 ### Temps 1
-- [Premier POK: **typologie des plateformes numériques** ](./POK1/)
+- [Premier POK: **typologie des plateformes numériques** ](./temps-1/)
 
 ### Temps 2
-- [Deuxième POK: **BabyCameleon, Prototypage d'une offre de service innovante** ](./POK2/)
+- [Deuxième POK: **BabyCameleon, Prototypage d'une offre de service innovante** ](./temps-2/)
 
 ### Temps 3
 
-- [Troisième POK: **BabyCameleon, Business Plan et modélisation Logistique** ](./POK3/)
+- [Troisième POK: **BabyCameleon, Business Plan et modélisation Logistique** ](./temps-3/)

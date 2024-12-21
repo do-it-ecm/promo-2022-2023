@@ -14,15 +14,15 @@ Les MON de Thomas Pont
 
 ## Temps 1
 
-- [React](./react)
-- [Google Apps Script](./gas)
+- [React](./temps-1.1/)
+- [Google Apps Script](./temps-1.2/)
 
 ## Temps 2
 
-- [Bash](./bash)
-- [Sass](./sass)
+- [Bash](./temps-2.1/)
+- [Sass](./temps-2.2/)
 
 ## Temps 3
 
-- [Spark](./spark)
-- [Gestion de flux de données en temps réel](./kafka)
+- [Spark](./temps-3.1/)
+- [Gestion de flux de données en temps réel](./temps-3.2/)

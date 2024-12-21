@@ -8,9 +8,9 @@ authors:
 ---
 ## Listes des POK : 
 
-- [Artblog : développement](Artblog/)
-- [Artblog : déploiement](ServeurDistant/)
-- [Artblog : CI/CD](CI-CD/)
+- [Artblog : développement](./temps-1/)
+- [Artblog : déploiement](./temps-2/)
+- [Artblog : CI/CD](./temps-3/)
 
 ## Description :
 
@@ -26,4 +26,4 @@ La complexité est croissante, chaque POK repose sur ceux d'avant.
 
 ## Preview :
 
-<img src="./images/artblog-front-cover.png" alt="preview" />
+<img src="./artblog-front-cover.png" alt="preview" />

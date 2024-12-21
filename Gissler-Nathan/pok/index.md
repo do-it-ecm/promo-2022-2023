@@ -9,6 +9,6 @@ authors:
 Hub pour accéder à tous les POK de Nathan
 <!-- fin résumé -->
 
-* [Un site chez moi](../../Barbotteau-Léonard/pok/pok-1)
-* [Mon sheet c'est moi : suite et déploiement](../../Barbotteau-Léonard/pok/pok-2)
+* [Un site chez moi](../../Barbotteau-Leonard/pok/pok-1)
+* [Mon sheet c'est moi : suite et déploiement](../../Barbotteau-Leonard/pok/pok-2)
 * [Développement mobile](./pok-3)

@@ -23,21 +23,21 @@ Tous les MON de Killian ROYANT
 
 **Lien vers mes POK :**
 
-{% chemin %} [Les POK de Killian](../../pok/royantk) {% endchemin %}
+{% chemin %} [Les POK de Killian](../pok/) {% endchemin %}
 
 ## Liste de mes MON
 
 Bonjour, bonjour ! Vous pouvez retrouvez ici tous mes **MON** :
 
-- [**Temps 1**](temps_1)
-  - [Programmation Objet en Python](temps_1/POO_python)
-  - [Créez des pages web dynamiques avec JavaScript](temps_1/js)
-- [**Temps 2**](temps_2)
-  - [Passez au Full Stack avec Node.js, Express et MongoDB](temps_2/fullstack)
-  - [Débuter avec React](temps_2/react)
-- [**Temps 3**](temps_3)
-  - [Technologies front-end](temps_3/technologies)
-  - [Les métiers après DO_IT](temps_3/jobs)
+- **Temps 1**
+  - [Programmation Objet en Python](./temps-1.1/)
+  - [Créez des pages web dynamiques avec JavaScript](./temps-1.2/)
+- **Temps 2**
+  - [Passez au Full Stack avec Node.js, Express et MongoDB](./temps-2.1/)
+  - [Débuter avec React](./temps-2.2/)
+- **Temps 3**
+  - [Technologies front-end](./temps-3.1/)
+  - [Les métiers après DO_IT](./temps-3.2/)
 
 ## Mon parcours
 

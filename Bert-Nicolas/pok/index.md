@@ -32,15 +32,15 @@ Jeu de mots croisés (Svelte, NestJS, PostgreSQL)
 ## Gestion de projet
 
 <div class="allButtonGestionProjet">
-  <a href="./temps1" class="buttonGestionProjet">
+  <a href="./temps-1" class="buttonGestionProjet">
     <span><b class="hoverUnderline">Temps 1 :</b> Un site chez moi</span>
   </a>
 
-  <a href="./temps2" class="buttonGestionProjet">
+  <a href="./temps-2" class="buttonGestionProjet">
     <span><b class="hoverUnderline">Temps 2 :</b> Serveur distant</span>
   </a>
 
-  <a href="./temps3" class="buttonGestionProjet">
+  <a href="./temps-3" class="buttonGestionProjet">
     <span><b class="hoverUnderline">Temps 3 :</b> Amélioration continue</span>
   </a>
 </div>

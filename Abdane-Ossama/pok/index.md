@@ -12,11 +12,11 @@ Hub pour accéder à tous les POK d'Ossama
 ## POK d'Ossama
 
 ### Temps 1
-[Un site chez moi](./pok-1)
+[Un site chez moi](./temps-1)
 
 ### Temps 2
-[Réalisation d'un site sur eleventy](./pok-temps2)
+[Réalisation d'un site sur eleventy](./temps-2)
 
 ### Temps 3
-[Création d'un jeu en python](./pok-temps3)
+[Création d'un jeu en python](./temps-3)
 
