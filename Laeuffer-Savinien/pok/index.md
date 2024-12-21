@@ -14,14 +14,12 @@ POKs de Savinien Laeuffer
 
 # Temps 1
 
-[Mon site chez moi](./monsite)
+[Mon site chez moi](./temps-1/)
 
 # Temps 2
 
-[Déploiement sur un serveur distant](./serveurdistant)
+[Déploiement sur un serveur distant](./temps-2/)
 
 # Temps 3
 
-[Déploiement sur un serveur distant (suite)](./serveurdistant2)
-
-
+[Déploiement sur un serveur distant (suite)](./temps-3/)

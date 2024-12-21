@@ -13,12 +13,12 @@ Hub pour accéder à tous les POK de Kasimir
 ## Planning POK de Kasimir
 
 ### Temps 1
-[Configurations organisationnelles dans le secteur de l'IT](./POK1)
+[Configurations organisationnelles dans le secteur de l'IT](./temps-1/)
 
 ### Temps 2
 **Formation Hacking/CTF:**
-- [Gestion de projekt](./POK2)
-- [Résultat](./POK2/hacking)
+- [Gestion de projekt](./temps-2/)
+- [Résultat](./temps-2/hacking)
 
 ### Temps 3
 Une des suivantes :

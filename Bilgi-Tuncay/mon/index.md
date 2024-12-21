@@ -15,13 +15,13 @@ Ensemble des MON réalisés par Tuncay Bilgi
 
 
 ### Temps 1
-- [POO](./POO) 
-- [Docker](./Docker)
+- [POO](./temps-1.1/) 
+- [Docker](./temps-1.2)
 
 ### Temps 2
-- [Jenkins](./Jenkins) 
-- [Angular](./Angular)
+- [Jenkins](./temps-2.1) 
+- [Angular](./temps-2.2)
 
 ### Temps 3
-- [Backend](./Backend)
-- [Snapshots](./JestSnapshot)
+- [Backend](./temps-3.1)
+- [Snapshots](./temps-3.2)

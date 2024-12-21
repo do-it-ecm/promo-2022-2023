@@ -12,13 +12,13 @@ L'ensemble de mes MON
 ## Planning des MON de Louise
 
 ### Temps 1
-- [Premier MON: **Comparatif des typologies des projets agiles** ](./MON1/)
-- [Deuxième MON:  Web Front 1](./MON2/)
+- [Premier MON: **Comparatif des typologies des projets agiles** ](./temps-1.1/)
+- [Deuxième MON:  Web Front 1](./temps-1.2/)
 
 ### Temps 2
-- [Premier MON: **Programation Objet**](./MON3/)
-- [Deuxième MON:**Djangogirls**](./MON4/)
+- [Premier MON: **Programation Objet**](./temps-2.1/)
+- [Deuxième MON:**Djangogirls**](./temps-2.2/)
 
 ### Temps 3
-- [Premier MON: **VBA**](./MON5/) 
-- [Deuxième MON: **Sobriété Numérique et stratégie digitale**](./MON6/)
+- [Premier MON: **VBA**](./temps-3.1/)
+- [Deuxième MON: **Sobriété Numérique et stratégie digitale**](./temps-3.2/)

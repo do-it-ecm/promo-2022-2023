@@ -11,12 +11,12 @@ Les POK que je fais au cours de ce semestre
 
 ## Temps 1
 
-- [Mon site Portfolio chez moi](./poks/portfolio)
+- [Mon site Portfolio chez moi](./temps-1/)
 
 ## Temps 2
 
-- [Mon Portfolio chez OVH](./poks/distant)
+- [Mon Portfolio chez OVH](./temps-2)
 
 ## Temps 3
 
-- [Ma galerie pour mon portfolio](./poks/galerie)
+- [Ma galerie pour mon portfolio](./temps-3)
