@@ -4,8 +4,8 @@ layout: layout/mon.njk
 title: "MON 2.2: Création d'un site WordPress en local"
 authors:
   - Ossama Abdane
+temps: 2
 tags:
-  - 'temps 2'
 
 date: 2023-01-25
 ---

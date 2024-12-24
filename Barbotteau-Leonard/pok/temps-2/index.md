@@ -6,8 +6,8 @@ authors:
   - Léonard Barbotteau
   - Nathan Gissler
 
+temps: 2
 tags:
-  - 'temps 2'
   - web
 ---
 

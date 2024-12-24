@@ -4,8 +4,8 @@ layout: layout/mon.njk
 title: "MON 2.1: Google Apps Script : Rappel anniversaire"
 authors:
   - Ossama Abdane
+temps: 2
 tags:
-  - 'temps 2'
 
 date: 2023-01-04
 ---

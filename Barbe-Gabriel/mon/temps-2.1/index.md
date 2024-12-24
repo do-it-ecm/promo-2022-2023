@@ -4,9 +4,9 @@ layout: layout/mon.njk
 title: "Coté Web"
 authors:
   - Gabriel BARBE
+temps: 2
 tags: 
   - 'serveur'
-  - 'temps 2'
 
 date: 2023-01-04
 ---

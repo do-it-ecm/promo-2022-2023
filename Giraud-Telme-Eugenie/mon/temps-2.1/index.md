@@ -6,10 +6,10 @@ title: "Catalogue et critique des modes actuelles en management"
 authors:
     - "Eugénie Giraud-Telme"
 
+temps: 2
 tags: 
     - 'management'
     - 'innovation'
-    - 'temps 2'
 
 date: 2023-01-25
 ---

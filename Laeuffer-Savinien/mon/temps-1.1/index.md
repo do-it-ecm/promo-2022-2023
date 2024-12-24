@@ -6,8 +6,8 @@ authors:
   - Savinien Laeuffer
 date: 2022-10-07
 
+temps: 1
 tags:
-  - 'temps 1'
 ---
 
 <!-- début résumé -->

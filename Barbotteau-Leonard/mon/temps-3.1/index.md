@@ -6,8 +6,8 @@ authors:
   - Léonard Barbotteau
 date: 2023-03-23
 
+temps: 3
 tags:
-  - 'temps 3'
 ---
 
 <!-- début résumé -->

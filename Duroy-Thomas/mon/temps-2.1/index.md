@@ -7,8 +7,8 @@ authors:
 
 date: 2023-01-04
 
-tags:
-  - 'temps 2' 
+temps: 2
+tags: 
   - 'Front'
   - 'Carrousel'
 ---

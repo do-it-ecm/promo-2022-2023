@@ -4,8 +4,8 @@ layout: layout/mon.njk
 title: "MON 3.2: Formation Excel VBA"
 authors:
   - Ossama Abdane
+temps: 3
 tags:
-  - 'temps 3'
 
 date: 2023-04-05
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layout/fiche.njk
+layout: layout/profile.njk
 
 title: "Timothée Bermond"
 authors:

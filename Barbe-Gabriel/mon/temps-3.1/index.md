@@ -4,8 +4,8 @@ layout: layout/mon.njk
 title: "Business Plan"
 authors:
   - Gabriel BARBE
+temps: 3
 tags:
-  - 'temps 3'
 
 date: 2023-03-23
 ---

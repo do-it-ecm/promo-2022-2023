@@ -4,8 +4,8 @@ layout: layout/mon.njk
 title: "Developpeur Blockchain"
 authors:
   - Antoine Varnerot
+temps: 3
 tags:
-  - 'temps 3'
 
 date: 2023-03-23
 ---

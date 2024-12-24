@@ -7,8 +7,8 @@ authors:
 
 date: 2023-01-04
 
+temps: 2
 tags:
-  - 'temps 2'
   - 'Programmes Binaires'
   - 'Compilateur'
   - 'Yacc et Lex'

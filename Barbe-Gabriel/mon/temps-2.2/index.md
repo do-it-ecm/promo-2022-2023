@@ -4,9 +4,9 @@ layout: layout/mon.njk
 title: "Business Model"
 authors:
   - Gabriel BARBE
+temps: 2
 tags: 
   - 'business'
-  - 'temps 2'
 
 date: 2023-01-25
 ---

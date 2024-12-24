@@ -7,8 +7,8 @@ authors:
 
 date: 2023-01-04
 
+temps: 2
 tags:
-  - 'temps 2'
 ---
 
 <p style="text-align: center; font-size: 1.5rem;"><strong>Mon site distant</strong></p>

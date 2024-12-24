@@ -8,8 +8,8 @@ authors:
 
 date: 2023-01-25
 
+temps: 3
 tags:
-  - 'temps 3'
   - 'base de données'
   - 'sequelize'
   - 'back-end'
