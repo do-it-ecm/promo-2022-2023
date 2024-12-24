@@ -4,8 +4,8 @@ layout: layout/mon.njk
 title: "MON 1.2: MOOC Design Thinking for innovation"
 authors:
   - Ossama Abdane
+temps: 1
 tags:
-  - 'temps 1'
 
 date: 2022-10-19
 ---

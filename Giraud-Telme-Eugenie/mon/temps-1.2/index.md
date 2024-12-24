@@ -6,10 +6,10 @@ title: "Étude de cas CFP"
 authors:
     - "Eugénie Giraud-Telme"
 
+temps: 1
 tags :
   - 'processus'
   - 'systeme information'
-  - 'temps 1'
 
 date: 2022-10-19
 ---

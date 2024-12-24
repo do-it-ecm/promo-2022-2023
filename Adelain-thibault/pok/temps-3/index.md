@@ -7,8 +7,8 @@ authors:
 
 date: 2023-01-25
 
+temps: 3
 tags:
-  - 'temps 3'
 ---
 
 Github: <https://github.com/ThibaultAdelain/InstantBuddyNode>

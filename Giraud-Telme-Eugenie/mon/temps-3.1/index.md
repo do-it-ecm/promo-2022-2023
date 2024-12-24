@@ -5,10 +5,10 @@ title: "MOOC People Analytics"
 authors:
     - "Eugénie Giraud-Telme"
 
+temps: 3
 tags: 
     - 'management'
     - 'ressources humaines'
-    - 'temps 3'
 
 date: 2023-03-23
 ---

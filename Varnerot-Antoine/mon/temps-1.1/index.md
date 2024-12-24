@@ -4,8 +4,8 @@ layout: layout/mon.njk
 title: "Web Front 1"
 authors:
   - Antoine Varnerot
+temps: 1
 tags:
-  - 'temps 1'
 
 date: 2022-10-07
 ---

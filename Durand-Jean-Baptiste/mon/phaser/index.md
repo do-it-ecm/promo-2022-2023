@@ -7,8 +7,8 @@ authors:
 
 date: 2023-04-05
 
+temps: 3
 tags:
-    - 'temps 3'
     - Phaser
     - Game Engine
     - Github Actions

@@ -5,8 +5,8 @@ title: "Dev Web 2"
 authors:
   - Gabriel BARBE
 
+temps: 1
 tags:
-  - 'temps 1'
 
 date: 2022-10-19
 ---

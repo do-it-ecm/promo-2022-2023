@@ -6,8 +6,8 @@ authors:
   - Killian ROYANT
 date: 2022-10-19
 
+temps: 1
 tags:
-  - 'temps 1'
   - DevWeb
   - JavaScript
   - API

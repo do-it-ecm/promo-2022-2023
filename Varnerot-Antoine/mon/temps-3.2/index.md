@@ -4,11 +4,11 @@ layout: layout/mon.njk
 title: "Les test dans Angular"
 authors:
   - Antoine Varnerot
+temps: 3
 tags:
   - angular
   - test
   - javascript
-  - 'temps 3'
 
 date: 2023-04-05
 ---

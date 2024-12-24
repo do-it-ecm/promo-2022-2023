@@ -4,8 +4,8 @@ layout: layout/mon.njk
 title: "MON 3.1: Présentation de ChatGPT"
 authors:
   - Ossama Abdane
+temps: 3
 tags:
-  - 'temps 3'
 
 date: 2023-03-23
 ---

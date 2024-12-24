@@ -6,8 +6,8 @@ authors:
   - Sarah Honoré
 date: 2023-01-25
 
+temps: 3
 tags:
-  - 'temps 3'
   - 'palo alto'
   - 'lean'
   - 'ecole du paradoxe'

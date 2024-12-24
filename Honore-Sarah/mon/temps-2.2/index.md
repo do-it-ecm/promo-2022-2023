@@ -6,8 +6,8 @@ authors:
   - Sarah Honoré
 date: 2023-01-25
 
+temps: 2
 tags:
-  - 'temps 2'
   - 'digitalisation'
   - 'lego Universe'
   - 'minecraft'

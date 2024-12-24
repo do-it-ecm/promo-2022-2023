@@ -5,9 +5,9 @@ title: "Sûrement le seul MON d'info d'Eugénie"
 authors:
     - "Eugénie Giraud-Telme"
 
+temps: 1
 tags :
   - 'automatisation'
-  - 'temps 1'
 
 date: 2022-10-07
 ---

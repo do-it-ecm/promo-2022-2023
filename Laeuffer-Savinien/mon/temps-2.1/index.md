@@ -6,8 +6,8 @@ authors:
   - Savinien Laeuffer
 date: 2023-01-04
 
+temps: 2
 tags:
-  - 'temps 2'
 ---
 
 <!-- début résumé -->

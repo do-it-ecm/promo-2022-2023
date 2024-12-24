@@ -4,8 +4,8 @@ layout: layout/mon-index.njk
 title: "MON d'Ossama"
 authors:
   - Ossama Abdane
-
 ---
+
 <!-- début résumé -->
 Ensemble des MON d'Ossama Abdane
 <!-- fin résumé -->

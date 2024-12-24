@@ -5,10 +5,10 @@ title: "Organisation du Barbecue de fin d'option Do-IT"
 authors:
     - "Eugénie Giraud-Telme"
 
+temps: 3
 tags: 
     - 'organisation'
     - 'gestion de projet'
-    - 'temps 3'
 
 date: 2023-04-05
 ---

@@ -7,8 +7,8 @@ authors:
 
 date: 2023-01-04
 
+temps: 2
 tags:
-  - 'temps 2'
 ---
 <!-- Début Résumé -->
 POK visant à reproduire le site effectué dans le temps mais sur un serveur distant et en y rajoutant du back-end. 

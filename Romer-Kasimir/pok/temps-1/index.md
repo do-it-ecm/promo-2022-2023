@@ -6,8 +6,8 @@ authors:
   - Kasimir Romer
 date: 2022-10-07
 
+temps: 1
 tags:
-  - 'temps 1'
 ---
 
 ## 1. Tâche de ce POK

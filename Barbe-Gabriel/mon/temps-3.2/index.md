@@ -5,8 +5,8 @@ title: "Big Data & Machine learning"
 authors :
  - Gabriel BARBE
 
+temps: 3
 tags:
-  - 'temps 3'
 
 date: 2023-04-05
 ---

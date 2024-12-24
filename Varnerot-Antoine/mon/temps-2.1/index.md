@@ -4,8 +4,8 @@ layout: layout/mon.njk
 title: "BDD non relationnelles"
 authors:
   - Antoine Varnerot
+temps: 2
 tags:
-  - 'temps 2'
 
 date: 2023-01-04
 
