@@ -87,14 +87,14 @@ Cependant, j'aurais aimé faire plus de Backend, mais d'un coté le HeadlessCMS 
 
 On peut voir ici l'interface du CMS avec mon schéma de données :
 
-![Interface CMS](./graphCMSinterface.png)
+![Interface CMS](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/pok/temps-1/graphCMSinterface.png)
 
 Ici des captures d'écrans de mon blog avec des publications test :
 
 <div style = " display: grid;grid-template-columns: repeat(3, minmax(0, 1fr))">
-<img src="./ArtblogInterface.png" alt="page de garde du site" style="height: 250px; margin: 0 auto; width : 500px,grid-column : 1 ;grid-row : 1" />
-<img src="./artblogForm.png" alt="Formulaire de commentaire" style="height: 250px; margin: 0 auto; width : 400px,grid-column : 2 ;grid-row : 1" />
-<img src="./artblogComments.png" alt="Affichage de commentaires" style="height: 250px; margin: 0 auto; width : 500px,grid-column : 3 ;grid-row : 1 " />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/pok/temps-1/ArtblogInterface.png" alt="page de garde du site" style="height: 250px; margin: 0 auto; width : 500px,grid-column : 1 ;grid-row : 1" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/pok/temps-1/artblogForm.png" alt="Formulaire de commentaire" style="height: 250px; margin: 0 auto; width : 400px,grid-column : 2 ;grid-row : 1" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/pok/temps-1/artblogComments.png" alt="Affichage de commentaires" style="height: 250px; margin: 0 auto; width : 500px,grid-column : 3 ;grid-row : 1 " />
 
 </div>
 

@@ -26,4 +26,4 @@ La complexité est croissante, chaque POK repose sur ceux d'avant.
 
 ## Preview :
 
-<img src="./artblog-front-cover.png" alt="preview" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/pok/artblog-front-cover.png" alt="preview" />

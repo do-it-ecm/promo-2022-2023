@@ -34,27 +34,27 @@ Pour tout le monde il est généralement facile de contribuer au site, peut-êtr
     - l'arborescence est un peu complexe --> **refonte**
     - les shortcodes ne sont pas forcément connus --> **clarifier via un tuto**
     - la gestion des tags --> **clarifier avec un tuto**
-![Sondage Contribution](./contribution.png)
+![Sondage Contribution](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-3.1/contribution.png)
 
 ### Arborescence
 L'arborescence est en effet peu claire pour beaucoup --> **refonte de l'arborescence par année**
-![Sondage arborescence](./arborescence.png)
+![Sondage arborescence](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-3.1/arborescence.png)
 
 ### Navigation
 La navigation n'est pas super fluide et intuitive --> **amélioration de la navbar**
-![Sondage navigation](./navigation.png)
+![Sondage navigation](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-3.1/navigation.png)
 
 ### Recherche
 La recherche de contenu est peu fréquente de la part des élèves mais ceux qui cherchent ne trouvent pas facilement les informations. --> **mise en place d'un crawler et d'une barre de recherche**
-![Sondage Recherche](./recherche.png)
+![Sondage Recherche](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-3.1/recherche.png)
 
 ### Mots-clés
 La mise en place de mots-clés semble être l'élement qui fait l'unanimité, tout le monde trouve utile l'implémentation de mots-clés. --> **intégration dans la recherche avec des filtres**
-![Sondage mots clés](./mots-cles.png)
+![Sondage mots clés](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-3.1/mots-cles.png)
 
 ### Utilisation dans le futur
 Selon les réponses, 61% des élèves n'utiliseront pas le site plus tard. Ceux qui vont l'utiliser on indiqué que cela sera principalement pour faire de la veille technologique et se tenir informé.
-![Sondage futur](./futur.png)
+![Sondage futur](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-3.1/futur.png)
 
 ### Les améliorations voulues
 Pour beaucoup, c'est la gestion des mots-clés qui arrive en première place.
@@ -62,7 +62,7 @@ Pour beaucoup, c'est la gestion des mots-clés qui arrive en première place.
 
 ### Nouvelles fonctionnalités demandées
 Il ressort des réponses que les filtres de recherche ainsi qu'une barre de recherche seraient les plus bénéfiques lors de l'utilisation du site. Tous ces problèmes seront, je pense, résolus avec l'arrivée de la barre de recherche.
-![Sondage fonctionnalités](./fonctionnalites.png)
+![Sondage fonctionnalités](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-3.1/fonctionnalites.png)
 
 ### Bac à sable
 Voici également une liste de suggestions qui ont été faite en commentaires libres, certaines ne sont techniquement pas réalisables et d'autres que je trouve inutiles mais je les mets quand même !

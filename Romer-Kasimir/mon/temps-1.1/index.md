@@ -20,10 +20,10 @@ Le but de ce projet, c'est de créer une liste de tâches à faire ("To-Do") dan
 
 ## Résultat
 ### État de la table au debut
-![Screenshot of the table before the script is being executed](./sheet-before.png)
+![Screenshot of the table before the script is being executed](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Romer-Kasimir/mon/temps-1.1/sheet-before.png)
 
 ### Etat de la table après l'exécution du script
-![Screenshot of the table after the script is being executed](./sheet-after.png)
+![Screenshot of the table after the script is being executed](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Romer-Kasimir/mon/temps-1.1/sheet-after.png)
 
 ## Déroulement du projet
 1. Tutoriel sur YouTube

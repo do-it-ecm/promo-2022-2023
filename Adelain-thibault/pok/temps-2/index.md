@@ -90,8 +90,8 @@ Il vous faut suivre le lien ngrok.io affiché sur le page d'accueil pour pouvoir
 
 Par ce qu'une image vaut mille mots :
 
-![homePage](homePage.png)
-![mapPage](mapPage.png)
+![homePage](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Adelain-thibault/pok/temps-2/homePage.png)
+![mapPage](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Adelain-thibault/pok/temps-2/mapPage.png)
 
 #### Tuto :
 

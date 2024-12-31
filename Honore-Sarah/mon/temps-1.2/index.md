@@ -86,7 +86,7 @@ La méthode en cascade ou Waterfall ne sont pas adaptés aux projets très compl
 
 ### Méthode du cycle en V
 La particularité de la méthode de cycle en V est d'avoir **plusieurs étapes de tests** après la réalisation et la mise en oeuvre contrairement à la méthode en cascade qui n'a qu'une phase de test à la fin du processus.
-<img src="cycle_en_V.PNG">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Honore-Sarah/mon/temps-1.2/cycle_en_V.PNG">
 source : https://www.manager-go.com/gestion-de-projet/cycle-en-v.htm
 
 Dans cette méthode, l'équipe projet teste d'abord chaque brique fonctionnelle, ce sont les tests unitaires. Puis des tests sont effectués sur l'ensemble du produit, ce sont les tests d'intégration. Viennent ensuite les tests systèmes et la validation qui impliquent les futurs utilisateurs du produits, ils vérifient alors que la fonctionnalité de la solution. Juste avant la production, l'équipe projet consulte le client pour vérifier que le produit répond bien aux exigences qu'il a exprimé au début du projet, c'est la recette 
@@ -195,7 +195,7 @@ Plus de détails sur le Six Sigma [ici](https://www.planzone.fr/blog/quest-ce-qu
 La méthode Kanban est une méthode dérivée du Lean qui permet de visualiser les tâches à faire pour augmenter l'efficacité et atteindre l'amélioration continue. 
 Les différentes tâches sont représentées sous la forme de cartes dans un **tableau Kanban**. Dans ce tableau se trouve différentes colonnes telles que "A faire", "En cours" et "Terminé". Lorsqu'une personne commence une tâche, elle décale la carte de la tâche de la colonne "A faire" à la colonne "En cours". Cela permet à l'ensemble de l'équipe de savoir où en est le projet à l'instant T.
 
-<img src="tableau_kanban.PNG">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Honore-Sarah/mon/temps-1.2/tableau_kanban.PNG">
 source = https://kanbanize.com/fr/ressources/debuter-avec/methode-kanban)-
 
 ### Le Lean startup

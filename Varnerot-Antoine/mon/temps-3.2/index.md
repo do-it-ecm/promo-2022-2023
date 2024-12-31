@@ -70,7 +70,7 @@ TOTAL: 18 FAILED, 11 SUCCESS
 Et ca nous ouvre une fenêtre Chrome à l'adresse localhost:9876 où les erreurs sont affichées d'une facon plus lisible :
 
 <figure>
-  <img src="./tests-init.png">
+  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Varnerot-Antoine/mon/temps-3.2/tests-init.png">
   <figcaption>Résultat des tests du projet 3a</figcaption>
 </figure>
 

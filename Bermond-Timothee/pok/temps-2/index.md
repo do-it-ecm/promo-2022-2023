@@ -28,11 +28,11 @@ Durant le sprint 1 (25/11 - 7/12), je prévois :
 - D'aller voir Mr. Brucker pour me créer un compte sur l'evh
 
 Durant ce print j'ai eu le temps de créer toute ma partie front.
-<img src="./yams.jpg"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bermond-Timothee/pok/temps-2/yams.jpg"/>
 J'ai rencontré plusieurs difficultés : je voulais notamment ajouter un input avec une liste déroulante et une zone de texte. J'ai eu du mal à trouver comment faire, la solution était toute simple : utilisé une datalist qui en plus peut-être réutilisable pour plusieurs input.
-<img src="./datalist.jpg">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bermond-Timothee/pok/temps-2/datalist.jpg">
 Une autre difficulté a été la création d'indication au survol d'une image. Je me suis pris la tête avec des *:hoover* alors qu'il suffisait d'utiliser la propriété title.
-<img src="./indication.jpg">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bermond-Timothee/pok/temps-2/indication.jpg">
 J'ai également tenté d'implémenter une boucle for dans le fichier javascrpit afin de traiter les scores de tous les joueurs d'un seul coup ce qui m'aurait permis de créer facilement d'autres joueurs. Mais cette méthode n'a pas fonctionné et je n'ai pas eu le temps de chercher une méthode alternative.
 Pour toute la partie CSS je me suis référé à mon [MON1.2](../../../../mon/TB/Mes_MON/CSS). Il y a juste la fonctionnalité *:before* que j'ai utilisé afin d'ajouter un fond d'écran partiellement opaque.
 

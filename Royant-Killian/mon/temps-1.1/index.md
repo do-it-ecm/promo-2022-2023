@@ -36,7 +36,7 @@ Ci-dessous les ressources principales liées à ce MON. Vous y retrouverez le li
 
 {% endchemin %}
 
-![Présentation](./presentation.png)
+![Présentation](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Royant-Killian/mon/temps-1.1/presentation.png)
 
 ### Objectifs pédagogiques
 

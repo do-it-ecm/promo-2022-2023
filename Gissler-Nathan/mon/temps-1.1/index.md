@@ -78,7 +78,7 @@ Il existe de nombreuses balises, notamment :
 
 Certaines balises peuvent servir à identifier les différentes sections de la page.
 
-![Balises pour identifier les sections de la page](sections_page_web.png)
+![Balises pour identifier les sections de la page](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-1.1/sections_page_web.png)
 
 #### Tableaux
 

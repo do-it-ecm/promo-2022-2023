@@ -107,27 +107,27 @@ Une fois obtenu, il a fallu procéder à l'embedding (vectorisation numérique d
 
 Tout d'abord, après avoir découvert PyTorch, j'ai essayé d'entraîner un réseau de neurones naïf que j'avais construit mais comme vous pouvez le voir, les résultats n'étaient pas très concluants.
 
-![NaiveNetResults](NaiveNetResults.png)
+![NaiveNetResults](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Duroy-Thomas/pok/temps-1/NaiveNetResults.png)
 
 Je me suis renseigné davantage sur le domaine du NLP et j'ai appris qu'une architecture spécifique de réseau de neurones existait : les "Recurrent Neural Network" (RNN).
 
 Un RNN est conçu pour prendre en compte les relations séquentielles entre les entrées, en stockant une mémoire interne qui leur permet de prendre en compte les entrées précédentes.
 
-![Différence entre un RNN et un réseau classique](rnn-vs-fnn.png)
+![Différence entre un RNN et un réseau classique](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Duroy-Thomas/pok/temps-1/rnn-vs-fnn.png)
 
 Les avantages des RNN par rapport aux réseaux classiques incluent leur capacité à traiter des données séquentielles de longue durée, leur flexibilité en termes de taille d'entrée et leur capacité à prendre en compte les relations de dépendance temporelle dans les données.
 
 Et les résultats étaient bien meilleurs:
 
-![RNNetResults](RNNetResults.png)
+![RNNetResults](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Duroy-Thomas/pok/temps-1/RNNetResults.png)
 
 J'ai voulu alors voir si je pouvais améliorer ces résultats en réglant le taux d'apprentissage (hyper-paramètre clé dans l'étude de réseau de neurones.)
 
-![LRcomparison](LRcomparison.png)
+![LRcomparison](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Duroy-Thomas/pok/temps-1/LRcomparison.png)
 
 Ensuite, avec le modèle RNN entrainé avec le meilleur LR, j'ai codé une fonction de prédiction de sentiment et j'ai tenté de piéger mon algorithme des phrases un peu sarcastiques
 
-![Sentiment Prediction](sentiment_prediction.png)
+![Sentiment Prediction](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Duroy-Thomas/pok/temps-1/sentiment_prediction.png)
 
 Enfin, j'ai entendu parlé de "Transfer Learning" vers la fin de mon POK. Il s'agit d'utiliser un réseau de neurone pré-entrainé, puis d'entraîner sa couche de classification sur notre problème spécifique.
 

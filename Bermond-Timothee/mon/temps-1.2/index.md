@@ -24,11 +24,11 @@ J'ai tout d'abord commencé par suivre la partie sur le CSS de cette [formation 
 Le CSS permet de faire la mise en forme son site (couleur du texte, police, mise en page,...).
 
 
-![POK sans CSS](./index_sans_css.jpg)
+![POK sans CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bermond-Timothee/mon/temps-1.2/index_sans_css.jpg)
 Mon POK sans css.
 
 
-![POK avec CSS](./index_avec_css.jpg)
+![POK avec CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bermond-Timothee/mon/temps-1.2/index_avec_css.jpg)
 Mon POK avec css.
 
 Le CSS peut-être écrit dans un fichier *.css* (recommandé), dans l'en-tête du fichier html à l'aide d'une balise *style* ou directement dans les balises (non recommandé). Utiliser un fichier *.css* permet de facilement généraliser les propriétés à toutes nos pages html sans avoir à faire des copié-collé.
@@ -159,7 +159,7 @@ Pour modifier l'apparence de la bordure on utilise la propriété *border* qui p
 - la largeur : valeur en pixels (2px);
 - la couleur : utiliser un des choix vu plus haut pour décider de la couleur;
 - type de bordure : il existe 8 types différents de bordure.
-![Types bordures CSS](./types_bordures.jpg)
+![Types bordures CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bermond-Timothee/mon/temps-1.2/types_bordures.jpg)
 
 Il est également possible de ne sélectionner qu'une bordure avec les propriétés : 
 - *border-top*
@@ -202,7 +202,7 @@ Des balises ont été introduites pour structurer les pages :
 - un article indépendant : balise *article*
 
 Ce qui donne a peu près :
-![Balises structure](./balises_structure.jpg)
+![Balises structure](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bermond-Timothee/mon/temps-1.2/balises_structure.jpg)
 
 **Flexbox**
 
@@ -232,7 +232,7 @@ On peut ensuite aligner les éléments selon l'axe principal avec la propriété
 ![Alignement axe principal](./alignement_axe_principal.jpg")
 
 Mais on peut également aligner les éléments sur l'axe secondaire avec la propriété *align-items* qui peut prendre différentes valeurs :
-![Alignement axe secondaire](./alignement_axe_secondaire.jpg)
+![Alignement axe secondaire](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bermond-Timothee/mon/temps-1.2/alignement_axe_secondaire.jpg)
 Il est possible d'aligner un seul élément sur l'axe secondaire avec la propriété *align-self*.
 
 La propriété *order* permet de changer l'ordre des éléments du conteneur.
