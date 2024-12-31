@@ -84,7 +84,7 @@ On va égalment le CSS pour disposer les futurs boutons cliquable de la manière
 
 A la fin, en compilant toutes nos lignes de comandes, on obtient le résultat suivant :
 
-![Optional Text](Image1.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/pok/temps-1/Image1.png)
 
 
 #### La landing page 
@@ -113,7 +113,7 @@ Comme précedemment, on va utiliser le CSS pour mettre en place ce que l'on souh
 
 En utilisant les paramètres précedents, on obtient :
 
-![Optional Text](Image2.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/pok/temps-1/Image2.png)
 
 #### Structuration de la partie POK et MON
 
@@ -190,7 +190,7 @@ Modification de la taille du titre, de sa disposition et de la bande qui va cont
 
 Le résulat obtenu :
 
-![Optional Text](Image3.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/pok/temps-1/Image3.png)
 
 
 #### Bas de page 
@@ -220,7 +220,7 @@ On va également, chosir la manière de dispoistion et d'affichage avec le CSS.
 
 Le résulat obtenu :
 
-![Optional Text](Image4.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/pok/temps-1/Image4.png)
 
 #### Résultat final 
 

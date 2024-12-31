@@ -19,7 +19,7 @@ En tant que modèle de langage basé sur l'IA, ChatGPT est capable de comprendre
 
 ## Présentation de OpenAI :
 
-![Optional Text](./Image1.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/mon/temps-3.1/Image1.png)
 
 OpenAI est une entreprise de recherche en intelligence artificielle créée en 2015 par un groupe de personnalités du monde de la technologie tels qu'Elon Musk, Sam Altman, Greg Brockman et d'autres. L'objectif principal de l'entreprise est de créer des technologies d'intelligence artificielle avancées tout en garantissant leur sécurité pour l'humanité.
 
@@ -45,19 +45,19 @@ Une fois les données pré-traitées, elles ont été utilisées pour entraîner
 
 ChatGPT est un modèle de langage avancé qui est capable de comprendre et de générer du langage naturel humain avec une grande précision. Il a été entraîné sur des quantités massives de données de langage naturel et possède des connaissances sur de nombreux sujets différents. Voici quelques-unes de ses capacités :
 * Répondre à des questions : ChatGPT peut répondre à une grande variété de questions en utilisant ses connaissances sur différents sujets. Il peut également répondre à des questions qui n'ont pas de réponse simple en fournissant des réponses complexes et nuancées.
-![Optional Text](./Image5.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/mon/temps-3.1/Image5.png)
 
 * Générer du texte créatif : ChatGPT peut générer du texte créatif, tel que des histoires courtes, des poèmes et des chansons. Il peut même créer des conversations fictives entre deux personnes.
-![Optional Text](./Image2.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/mon/temps-3.1/Image2.png)
 
 * Traduction de langues : ChatGPT peut traduire du texte d'une langue à une autre avec une grande précision. Il peut également prendre en compte les nuances culturelles et linguistiques qui peuvent affecter la traduction.
-![Optional Text](./Image3.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/mon/temps-3.1/Image3.png)
 
 * Réalisation de tableau : ChatGPT peut réorganier des informations sous forme de tableau, il s'agit d'un moyen efficace et pratique d'afficher les informations de manière structurée, lisible et facilement compréhensible.
-![Optional Text](./Image4.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/mon/temps-3.1/Image4.png)
 
 * Jouer à des jeux  : Vous pouvez jouer avec ChatGPT à des jeux de mots tels que des devinettes, des charades, des mots croisés, etc.
-![Optional Text](./Image6.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/mon/temps-3.1/Image6.png)
 
 * Assistance pour la rédaction : ChatGPT peut aider à la rédaction de différents types de textes, tels que des rapports, des articles de blog, des courriels et des lettres. Il peut suggérer des mots et des phrases appropriés, corriger la grammaire et l'orthographe, et même fournir des idées pour le contenu.
 
@@ -89,7 +89,7 @@ Les équipes qui travaillent sur le développement de l'IA ChatGPT sont égaleme
 
 En utilisant ces mesures, l'IA ChatGPT est en mesure de fournir des réponses précises et fiables tout en réduisant les risques associés à la propagation de théories du complot et de désinformation en ligne. On peur le voir sur l'exemple ci-desous :
 
-![Optional Text](./Image8.png) 
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/mon/temps-3.1/Image8.png) 
 
 
 ## Perspectives d'avenir pour ChatGPT :
@@ -126,7 +126,7 @@ Pour l'avenir, ChatGPT a prévu de développer son offre d'abonnement et de l'en
 
 ## ChatGPT-4
 
-![Optional Text](./Image7.png)
+![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/mon/temps-3.1/Image7.png)
 
 GPT-4 est un chatbot basé sur l'intelligence artificielle qui dispose de nouvelles fonctionnalités par rapport à la version précédente, GPT-3.5. Les utilisateurs ont été étonnés par les performances améliorées de GPT-4, notamment sa capacité à traiter jusqu'à 25 000 mots de texte et son système multimodal qui lui permet d'analyser des images et de répondre par du texte.
 

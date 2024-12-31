@@ -20,15 +20,15 @@ Ce POK fait suite à mon MON sur le développement mobile. Je vais utiliser les 
 
 ### Maquette Figma de l'appli
 
-<img src="applimenufigma.png" alt="Capture d'écran figma" width="300"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/pok/pok-3/applimenufigma.png" alt="Capture d'écran figma" width="300"/>
 
 ### L'appli en développement sur Bubble
 
-<img src="applimenububble.png" alt="Capture d'écran bubble" width="300"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/pok/pok-3/applimenububble.png" alt="Capture d'écran bubble" width="300"/>
 
 ### L'appli en développement sur Android Studio
 
-<img src="applimenuandroidstudio.png" alt="Capture d'écran android studio" width="300"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/pok/pok-3/applimenuandroidstudio.png" alt="Capture d'écran android studio" width="300"/>
 
 La maquette réalisée en projet va donc me servir ici pour appliquer ce que j'ai appris sur Android Studio et cela me permettra d'essayer deux manières de développer une application mobile en parallèle.
 
@@ -74,11 +74,11 @@ Enfin, pour ce qui est de la gestion de la base de données, j'ai choisi l'ORM R
 
 ## Captures d'écran
 
-<img src="page_carnet.png" alt="Page carnet" width="300"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/pok/pok-3/page_carnet.png" alt="Page carnet" width="300"/>
 
-<img src="page_ajouter_recette.png" alt="Page ajouter recette" width="300"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/pok/pok-3/page_ajouter_recette.png" alt="Page ajouter recette" width="300"/>
 
-<img src="page_recette.png" alt="Page recette" width="300"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/pok/pok-3/page_recette.png" alt="Page recette" width="300"/>
 
 ## Difficultés rencontrées
 

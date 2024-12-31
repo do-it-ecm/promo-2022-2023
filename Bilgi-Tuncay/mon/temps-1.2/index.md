@@ -134,9 +134,9 @@ On lance ensuite un container de cette image en spécifiant le port 3000 et voil
 
 <div style = " display: grid;grid-template-columns: repeat(2, minmax(0, 1fr))">
 
-  <img src="./container.png" alt="DockerDeskop" style="height: 200px; margin: 0 auto; border: 0;grid-column : 1 ;grid-row : 1" />
+  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-1.2/container.png" alt="DockerDeskop" style="height: 200px; margin: 0 auto; border: 0;grid-column : 1 ;grid-row : 1" />
 
-  <img src="./front.png" alt="Front" style="height: 200px; margin: 0 auto; border: 0;grid-column : 2;grid-row : 1" />
+  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-1.2/front.png" alt="Front" style="height: 200px; margin: 0 auto; border: 0;grid-column : 2;grid-row : 1" />
 
 </div>
 
@@ -217,7 +217,7 @@ Ensuite, il relie les ports entre eux et fait passer les variables d'environneme
 
 Le résultat : 
 
-<img src="./front_back.png" alt="Composer" style="height: 200px; margin: 0 auto; border: 0" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-1.2/front_back.png" alt="Composer" style="height: 200px; margin: 0 auto; border: 0" />
 
 Le Front communique avec le back et donc notre page Todo n'est plus toute blanche mais elle fetch les tasks présentes dans le back flask et sa base de données sqlite.
 

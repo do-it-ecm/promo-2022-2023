@@ -268,9 +268,9 @@ On met en place tout ça et voici les résultat :
 
 <div style = " display: grid;grid-template-columns: repeat(3, minmax(0, 1fr))">
 
-<img src="./jenkins-hour1.png" alt="page d'index" style="grid-column : 1 ;grid-row : 1" />
-<img src="./jenkins-hour2.png" alt="pipeline log" style="grid-column : 2 ;grid-row : 1" />
-<img src="./jenkins-hour3.png" alt="deploy list" style="grid-column : 3 ;grid-row : 1 " />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/pok/temps-3/jenkins-hour1.png" alt="page d'index" style="grid-column : 1 ;grid-row : 1" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/pok/temps-3/jenkins-hour2.png" alt="pipeline log" style="grid-column : 2 ;grid-row : 1" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/pok/temps-3/jenkins-hour3.png" alt="deploy list" style="grid-column : 3 ;grid-row : 1 " />
 
 </div>
 
