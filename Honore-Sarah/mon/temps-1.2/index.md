@@ -195,7 +195,7 @@ Plus de détails sur le Six Sigma [ici](https://www.planzone.fr/blog/quest-ce-qu
 La méthode Kanban est une méthode dérivée du Lean qui permet de visualiser les tâches à faire pour augmenter l'efficacité et atteindre l'amélioration continue. 
 Les différentes tâches sont représentées sous la forme de cartes dans un **tableau Kanban**. Dans ce tableau se trouve différentes colonnes telles que "A faire", "En cours" et "Terminé". Lorsqu'une personne commence une tâche, elle décale la carte de la tâche de la colonne "A faire" à la colonne "En cours". Cela permet à l'ensemble de l'équipe de savoir où en est le projet à l'instant T.
 
-<img src="tableau kanban.PNG">
+<img src="tableau_kanban.PNG">
 source = https://kanbanize.com/fr/ressources/debuter-avec/methode-kanban)-
 
 ### Le Lean startup
