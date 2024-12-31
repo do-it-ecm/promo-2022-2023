@@ -76,7 +76,7 @@ Il s'agit de construire un compte de résultat simplifié et un tableau de trés
 Je ne vais pas revenir sur la construction d'un compte de résultat et d'un tableau de trésorerie, les cours de comptabilité dispensés en première année sont assez bien pour cela. 
 Vous pouvez néanmoins trouver des templates issus de la formation openclassrooms ci-dessous : 
 <img src="../Images/CR.png"/>
-<img src="../Images/Tableau de trésorerie.png"/>
+<img src="../Images/Tableau_de_tresorerie.png"/>
 L'horizon de temps doit être adapté les projections doivent être réalisées sur plusieurs années. Il est recommandé de réaliser les projections sur une base mensuelle pour un meilleur suivi opérationnel mais il peut aussi se faire sur une base annuelle. 
 
 ## Conclusion

@@ -111,7 +111,7 @@ Puis, nous leur avons appliqué le design défini en UI pour donner cela :
 
 Une nouveauté a été la manière d'accéder aux autres pages de l'application. Au départ, nous avions mis un bandeau en bas de l'écran, mais nous nous sommes tournés vers un menu dépliant sur la gauche. Comme ceci :
 
-<img src="menu-déplié.png">
+<img src="menu-deplie.png">
 
 #### Retours des étudiants (partie 2) :
 

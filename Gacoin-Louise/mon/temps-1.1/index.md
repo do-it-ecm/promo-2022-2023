@@ -57,7 +57,7 @@ Pour produire vite, on utilise un MVP ou Minimum Viable Product. Le but est de c
 - MVP
 {% endfaire %}
 
-<img src="Tbl Lean.png" >
+<img src="Tbl_Lean.png" >
 
 
 
@@ -86,7 +86,7 @@ https://www.cfi.ch/wp-content/uploads/processus-2048x842.png
 - Burn down chart (graphique qui montre l'avancement du projet et les points de difficultées)
 {% endfaire %}
 
-<img src="tbl Scrum.png" >
+<img src="tbl_Scrum.png" >
 
 
 
@@ -110,7 +110,7 @@ Du plus local au plus global :
 Les rôles de SCRUM sont conservés au niveau des équipes. Ils sont complétés par d'autres rôles qui s'assurent que les différents équipes du projet livrent bien les fonctionnalités dues, au  moments attendus. A chacun des niveaux de cette organisation, on retrouve des backlogs, qui fonctionnent sur le même modèle que décrit dans la partie précédente.
 
 
-<img src="Safe level.png" >
+<img src="Safe_level.png" >
 
 
 La notion de CADENCE est très importante dans SAFe. Elle est établie en nombre de Sprints
@@ -138,7 +138,7 @@ La solution est évaluée. Les équipes ainsi que le manangement indentifient le
 - Burn down Chart
 {% endfaire %}
 
-<img src="tbl SAFE.png">
+<img src="tbl_SAFE.png">
 
 ## 5.Shape UP
 
@@ -181,11 +181,11 @@ Les équipes passent à l'action. On leur donne un projet à réaliser et non de
 A noter : Les phases de Shape et de build se déroulent simultanément à partir de la 2 ème itération (on parle de dual run).
 Les équipes tournent ! ( ce ne sont pas les même personnes qui shape et build à chaque fois).
 
-<img src="cycles ShapeUp.png">
+<img src="cycles_ShapeUp.png">
 source: https://www.le-ticket.fr/resume-shape-up-basecamp/2821/
 
 
-<img src="tbl Shape up.png">
+<img src="tbl_Shape_up.png">
 
 
 ## 6.Conclusion

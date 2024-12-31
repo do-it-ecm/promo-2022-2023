@@ -44,7 +44,7 @@ Ici vous pouvez voir le nom du pokémon, son type, ses caractéristiques représ
 
 J'ai également implémenté une deuxième carte permettant cette fois-ci de rechercher un pokémon par son nom puis d'afficher ses caractéristiques.
 
-![Metalosse](./metalosse+search.png)
+![Metalosse](./metalosse_search.png)
 
 Ici, vous avez la possibilité d'écrire le nom d'un pokémon puis de cliquer dessus parmi les choix proposés pour afficher ses informations dans la carte à gauche. Les suggestions sous la barre de saisie sont actualisées automatiquement en fonction de ce que vous écrivez.
 

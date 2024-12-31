@@ -46,7 +46,7 @@ Ces commentaires sont des premières impressions et il se peut que je n'ai tout 
 Une connexion est directement disponible sur la page d'accueil du site WordPress, chose que je n'avais pas comprise avant. Le problème est que je suis obligé d'être connecté en tant qu'admin pour pouvoir créer d'autres comptes. Pour régler ce problème, on peut télecharger une extension : "Theme My Login" qui en plus de modifier mon interface (ce qui n'améliore pas grandement l'UI pour ma part) me permet aussi de d'avoir accès à la route : localhost/POK_3/register. 
 Cette route permet aux utilisateurs de créer un compte sur le site. 
 Je peux bien sûr très aisément définir les champs nécessaires à cette inscription mais ces champs sont aussi limités (voir ci-dessous) : 
-<img src="./../Images/Login Fields.png"/>
+<img src="./../Images/Login_Fields.png"/>
 Je peux activer ou désactiver chacun de ces champs et ainsi configurer la sécurité allouée aux utilisateurs. 
 
 ### Menu 
