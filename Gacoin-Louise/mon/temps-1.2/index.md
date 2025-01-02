@@ -84,9 +84,9 @@ Il y aura donc 2 paragraphes principaux et des images :
 
 En remplissant les blabla... avec du texte et des images on arrive au site suivant :
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-1.2/base1.png">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-1.2/base2.png">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-1.2/base3.png">
+<img src="base1.png">
+<img src="base2.png">
+<img src="base3.png">
 
 
 
@@ -118,7 +118,7 @@ Il faut maintenant organiser l'espace de notre site. Pour cela on va le 'diviser
 ```
 Voici un petit schéma récapitulant les principales divisions de mon site:
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-1.2/schema.png" width="250" >
+<img src="schema.png" width="250" >
 
 On peut bien sûr imbriquer des divisions. J'ai aussi mis mes images dans des divisions/blocs pour pouvoir les manipuler plus facilement.
 
@@ -247,10 +247,10 @@ J'ai rempli ma side-bar avec des images et du texte.
 
 Voilà le résultat ! :
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-1.2/sitef1.png">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-1.2/sitef2.png">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-1.2/sitef3.png">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-1.2/sitef4.png">
+<img src="sitef1.png">
+<img src="sitef2.png">
+<img src="sitef3.png">
+<img src="sitef4.png">
 
 
 

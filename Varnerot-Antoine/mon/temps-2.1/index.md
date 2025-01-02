@@ -49,7 +49,7 @@ Pour utiliser les connnaissances que je viens d'acquérir, j'ai décidé de fair
 Explication des grandes lignes:
 
 <figure>
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Varnerot-Antoine/mon/temps-2.1/todoapp.png">
+  <img src="./todoapp.png">
   <figcaption>To-do list</figcaption>
 </figure>
 

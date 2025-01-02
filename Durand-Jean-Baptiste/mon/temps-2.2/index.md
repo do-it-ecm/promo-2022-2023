@@ -32,7 +32,7 @@ tags:
 
 <h2 id="h1"> À quoi servent les pare-feu ? </h2>
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Durand-Jean-Baptiste/mon/temps-2.2/firewallCartoon.jpg" alt="Cartoon to present firewall" style="height: 400px; margin: 0 auto; border: 0" />
+<img src="./firewallCartoon.jpg" alt="Cartoon to present firewall" style="height: 400px; margin: 0 auto; border: 0" />
 
 Un **Firewall** (pare-feu) est un logiciel qui **contrôle l'ensemble des flux** entrant et sortant de l'appareil sur lequel il est connecté.
 
@@ -78,11 +78,11 @@ Pour ma part, j'ai une BBox, donc les exemples viendront de là.
 
 Une fois arrivé sur la page d'administration, on trouve où est ce qu'on peut gérer les paramètres avancés de la box.
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Durand-Jean-Baptiste/mon/temps-2.2/firewallBoxHome.png" alt="Box Administration Page" style="height: 400px; margin: 0 auto; border: 0" />
+<img src="./firewallBoxHome.png" alt="Box Administration Page" style="height: 400px; margin: 0 auto; border: 0" />
 
 Puis en accédant aux pare-feu, on peut voir quels sont les filtres mis en place sur la box.
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Durand-Jean-Baptiste/mon/temps-2.2/fireWallonBox.png" alt="Box page Firewall" style="height: 300px; margin: 0 auto; border: 0" />
+<img src="./fireWallonBox.png" alt="Box page Firewall" style="height: 300px; margin: 0 auto; border: 0" />
 
 Ici, le pare-feu bloque toutes les connexions - UDP et TCP - sur les ports 25 et 445 de la box.
 
@@ -266,10 +266,10 @@ Dans la partie *Desktop* de l'appareil, il y a une application, pour ajouter des
 
 <div style="display: flex; align-items: center;">
   <div style="width: 50%; display: flex; flex-direction: column; align-items: center;">
-    <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Durand-Jean-Baptiste/mon/temps-2.2/PacketTracerDesktop.png" style="border: 0;" />
+    <img src="./PacketTracerDesktop.png" style="border: 0;" />
   </div>
   <div style="width: 50%; display: flex; flex-direction: column; align-items: center;">
-    <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Durand-Jean-Baptiste/mon/temps-2.2/PacketTracerFireWall.png" style="border: 0;" />
+    <img src="./PacketTracerFireWall.png" style="border: 0;" />
   </div>
 </div>
 

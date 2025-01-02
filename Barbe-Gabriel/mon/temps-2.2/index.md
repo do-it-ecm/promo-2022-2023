@@ -36,7 +36,7 @@ Le Business Model et définit par 9 blocs que l'on peut réunir en une matrice :
 - Les activités clés
 - Les partenaires clés
 - La structure de coûts
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Barbe-Gabriel/mon/Images/business.png"/>
+<img src="../Images/business.png"/>
 
 ### Les segments de clientèle 
 En premier lieu, nous nous devons de savoir à qui nous nous adressons, en d'autres termes : à qui nous souhaitons vendre.

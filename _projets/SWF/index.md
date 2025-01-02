@@ -21,7 +21,7 @@ On présentera ici les différentes étapes du projet, de la conception à la r�
 
 ## Architecture de l'application
 
-![architecture du projet](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/_projets/SWF/architecture.png)
+![architecture du projet](architecture.png)
 
 Le stack technologique de l'application web Street Workout Finder est conçue pour offrir aux utilisateurs une expérience dynamique, évolutive et performante. Le stack comprend une combinaison de technologies populaires qui conviennent aux exigences du projet, même si le principal objectif derrière le choix de ce stack a été de se former au développement web à travers des technologies innovantes.
 
@@ -35,7 +35,7 @@ Finalement, les microservices et la passerelle API sont conçus pour être encap
 
 ## Poster
 
-![SWF_Poster](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/_projets/SWF/SWF_Poster.png)
+![SWF_Poster](SWF_Poster.png)
 
 ## Déroulé
 
@@ -95,10 +95,10 @@ Dans le quatrième sprint, nous avons réalisé les étapes suivantes :
 
 Page d'accueil           |  Menu
 :-------------------------:|:-------------------------:
-![page d'accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/_projets/SWF/map.png)   |   ![menu](slide_bar.png)
+![page d'accueil](map.png)   |   ![menu](slide_bar.png)
 
 **Page de connexion**            |  **Parc Athéna**
-![page de connexion](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/_projets/SWF/connect_1.png)  |   ![parc Athéna](parc_athena.png)
+![page de connexion](connect_1.png)  |   ![parc Athéna](parc_athena.png)
 
 ## Futures fonctionnalités
 

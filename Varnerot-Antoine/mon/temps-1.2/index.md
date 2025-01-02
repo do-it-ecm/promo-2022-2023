@@ -58,11 +58,11 @@ Exemple :
 
 On commence avec un set de données :
 
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Varnerot-Antoine/mon/temps-1.2/datasetMon2.png">
+  <img src="./datasetMon2.png">
 
   On clique ensuite sur les fonctions voulues dans la barre de recherche et on obtient le tableau suivant : 
 
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Varnerot-Antoine/mon/temps-1.2/datasetAfterCleaningMon2.png">
+  <img src="./datasetAfterCleaningMon2.png">
 
   La base de données a été nettoyée. On pourrait trouver une application à cela dans le domaine de l'intelligence artificielle.
 

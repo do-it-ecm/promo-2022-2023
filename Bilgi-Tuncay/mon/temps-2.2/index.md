@@ -138,8 +138,8 @@ Avec tout cela, on est en guise de créer une page internet. Elle est **reponsiv
 
  - Sur grand écran et sur Mobile :
 <div style='display:flex'>
-    ![Vue Angular classique](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-2.2/monangular.png)
-    ![Vue Angular mobile](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-2.2/monangulartel.png)
+    ![Vue Angular classique](./monangular.png)
+    ![Vue Angular mobile](./monangulartel.png)
 </div>
 
 ## 3 - Build et déploiement du projet sur un serveur distant

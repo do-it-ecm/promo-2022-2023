@@ -40,7 +40,7 @@ On peut désormais accéder aux fichiers du site de cette manière : `http://mon
 
 ## Utilisation de Node.js et Express pour son site
 
-![Logo Express](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-2.1/express.png)
+![Logo Express](express.png)
 
 Création du fichier de configuration package.json
 
@@ -112,7 +112,7 @@ Par exemple, on peut créer un `Router` pour un ensemble de requêtes dans un fi
 
 ## Gestion de la modification en temps réel d'un document collaboratif
 
-![Logo Meteor](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-2.1/meteor.png)
+![Logo Meteor](meteor.png)
 
 Pour la réalisation de notre POK, il faudrait que nous puissions, dans l'idéal, faire en sorte que les partitions du site "Mon sheet c'est moi" soient collaboratives et que les modifications d'un utilisateur soient visibles en temps réel par les autres utilisateurs. Cela fonctionnerait à la manière d'un Google Docs mais pour des partitions musicales.
 

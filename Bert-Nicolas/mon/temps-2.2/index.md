@@ -36,7 +36,7 @@ Le dépot GitHub du POC : https://github.com/nbert71/graphql-express
 {% info "Qu'est-ce qu'une **API** ?" %}
 Selon la CNIL, une **API** (*application programming interface* ou « interface de programmation d’application ») est une interface logicielle qui permet de « connecter » un logiciel ou un service à un autre logiciel ou service afin d’échanger des données et des fonctionnalités.
 
-![API](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.2/api.png)
+![API](./api.png)
 
 Une API va alors exposer des **routes** (que l'on appelle aussi **endpoints** en anglais) afin que le client puisse dialoguer avec les services. Il existe différentes manières de structurer les routes: ici nous allons parler des API REST et des API GraphQL.
 {% endinfo %}
@@ -45,7 +45,7 @@ Une API va alors exposer des **routes** (que l'on appelle aussi **endpoints** en
 
 Une API REST (*Representational State Transfer*) est une architecture de développement d'API qui utilise les différentes méthodes HTTP (GET, POST, PUT, DELETE, PATCH ...) pour interagir avec les autres services (généralement les bases de données). Ces différentes méthodes vont être exposées sur une même route ou sur des routes distinctes et vont répondre au client avec des [status code](http://http.cat) afin d'indiquer si la requête c'est bien passée ou s'il y a eu des erreurs. Les API REST sont très utilisées pour construire des applications web et mobiles car elles sont simples à utiliser et mettre en place. Les données transmises au client sont souvent au format JSON.
 
-![REST API](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.2/api_rest.png)
+![REST API](./api_rest.png)
 
 Chaque méthode HTTP permet d'effectuer des actions bien particulières. Voilà un exemple pour expliquer les méthodes les plus utilisées.
 
@@ -60,8 +60,8 @@ Pour plus d'informations, je vous invite à consulter [https://phauer.com/2015/r
 
 Le modèle d'API GraphQL est une autre manière de structurer les routes. Il n'y a en général qu'**un seul endpoint** qui est de type **POST** et c'est le client qui, en paramètres de la requête POST va définir les données qu'il souhaite obtenir. On gagne ainsi en flexibilité en permettant au client d'obtenir ce qu'il a besoin sans être figé par un modèle REST.
 
-![REST GraphQL](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.2/rest_graphql.png)
-![REST GraphQL](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.2/REST-and-GraphQL.png)
+![REST GraphQL](./rest_graphql.png)
+![REST GraphQL](./REST-and-GraphQL.png)
 
 ### REST ou GraphQL ? Avantages et inconvénients 
 
@@ -84,7 +84,7 @@ Il s'agit donc d'un autre paradigme pour la construction d'API qui a ses avantag
 
 Pour utiliser GraphQL, j'ai décidé d'utiliser un backend réalisé avec Express, connecté à une base de données PostgreSQL via l'ORM (Object Relation Mapping) [Prisma](https://www.prisma.io/). Il y aura ensuite une route statique renvoyant une page HTML afin d'indiquer la structure de la base de données (relations, entités ...) et une unique route d'API qui sera servie par GraphQL. Voici un petit schéma d'explications :
 
-![Archi GraphQL](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.2/graphql-archi.png)
+![Archi GraphQL](./graphql-archi.png)
 
 Nous allons désormais voir pas à pas comment créer un tel projet.
 
@@ -247,7 +247,7 @@ On va désormais créer une migration et l'appliquer en même temps à la base d
 
 A ce stade en lançant la commande `npx prisma studio`nous devrions voir nos tables avec les différents champs.
 
-<![Prisma Studio](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.2/prisma-studio.png)
+<![Prisma Studio](./prisma-studio.png)
 
 {% attention %}
 Il faut faire attention aux pratiques que l'on souhaite avoir. Il est possible de travailler uniquement avec le schéma Prisma et faire des `db push`cependant des changements plus important en base de données pourrait être critique en production, c'est pour cela que l'on utilise les migrations.
