@@ -108,7 +108,7 @@ Quelques précisions sur ces paramètres :
 
 On obtient alors des cercles transparents et celui selectionné est plus visible que les autres.
 
-![Navigation image](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Duroy-Thomas/mon/temps-2.1/carousel_buttons.png)
+![Navigation image](carousel_buttons.png)
 
 ### **Étape 3 : Changement de classes avec js**
 
@@ -169,6 +169,6 @@ buttons[0].classList.add("carousel_selected_button");
 
 Et voilà à quoi cela peut ressembler:
 
-![Carrousel image](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Duroy-Thomas/mon/temps-2.1/carousel_1.png)
-![Carrousel image](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Duroy-Thomas/mon/temps-2.1/carousel_2.png)
-![Carrousel image](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Duroy-Thomas/mon/temps-2.1/carousel_3.png)
+![Carrousel image](carousel_1.png)
+![Carrousel image](carousel_2.png)
+![Carrousel image](carousel_3.png)

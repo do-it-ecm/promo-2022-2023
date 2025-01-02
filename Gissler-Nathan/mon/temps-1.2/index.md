@@ -62,11 +62,11 @@ Une des syntaxe qui existe avec Eleventy est la syntaxe liquid, elle est utilis�
 
 Ces données peuvent ensuite être utilisée au sein du fichier (ici en HTML) de cette manière :
 
-![Utilisation du titre](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-1.2/utilisation_titre.png)
+![Utilisation du titre](utilisation_titre.png)
 
 Ou encore comme ceci pour la liste d'images :
 
-![Liste d'images](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-1.2/liste_images.png)
+![Liste d'images](liste_images.png)
 
 De cette manière les données doivent seulement être modifiées dans l'en-tête et plus dans chaque élément de la page.
 
@@ -87,7 +87,7 @@ Les filtres peuvent servir à différentes choses, ils peuvent se créer de cett
 
 Ils s'utilisent ensuite dans un fichier HTML comme ceci :
 
-![Utilisation d'un filtre](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-1.2/utilisation_filtre.png)
+![Utilisation d'un filtre](utilisation_filtre.png)
 
 ### Layouts
 
@@ -95,11 +95,11 @@ Un layout est un fichier Nunjucks que l'on crée de cette manière : `src/_inclu
 
 Ce fichier est constitué comme le fichier HTML d'une page de notre site, excepté que l'on peut par exemple remplacer le titre par :
 
-![Title](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-1.2/title.png)
+![Title](title.png)
 
 Et le contenu de la page par :
 
-![Content](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-1.2/content.png)
+![Content](content.png)
 
 Ces informations seront ensuite renseignées dans un fichier Markdown situé dans `/src` : `/src/index.md`.
 
@@ -127,15 +127,15 @@ On peut par exemple créer plusieurs pages du même format en itérant sur un fi
 
 - Fichier JSON contenant les données à utiliser (placé dans `_data`)
 
-![Fichier JSON](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-1.2/fichier_json.png)
+![Fichier JSON](fichier_json.png)
 
 - Fichier Nunjucks qui définit le format des fichiers à générer
 
-![Fichier Nunjucks](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-1.2/fichier_nunjucks.png)
+![Fichier Nunjucks](fichier_nunjucks.png)
 
 - Résultat (créé dans un dossier `portraits` avec les pages correspondant aux autres données du JSON)
 
-![Page affichée](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gissler-Nathan/mon/temps-1.2/portrait.png)
+![Page affichée](portrait.png)
 
 On remarque que l'on peut choisir le lien auquel on trouvera les pages générées.
 

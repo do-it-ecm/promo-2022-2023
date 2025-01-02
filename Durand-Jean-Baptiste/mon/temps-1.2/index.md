@@ -66,7 +66,7 @@ D'après les chiffres d'Akamai ([lien de l'article](https://www.akamai.com/site/
 
 {% endinfo %}
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Durand-Jean-Baptiste/mon/temps-1.2/nb_attaque_sql.png" alt="Technologies utilisées" style="height: 500px; margin: 0 auto; border: 0" />
+<img src="./nb_attaque_sql.png" alt="Technologies utilisées" style="height: 500px; margin: 0 auto; border: 0" />
 
 *Graphique provenant du même article*
 

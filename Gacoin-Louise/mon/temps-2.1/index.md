@@ -41,7 +41,7 @@ Un objet issu d'une certaine classe :
 
 Pour représenter un objet on utilise la représentation ULM.
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-2.1/ulm.png">
+<img src="ulm.png">
 
 On voit bien ce qui compose la classe:
   - Un nom 
@@ -50,7 +50,7 @@ On voit bien ce qui compose la classe:
 
 Finalement, une classe python s'écrira de cette manière:
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-2.1/classe_.png">
+<img src="classe_.png">
 
 {% prerequis "Source" %}
 
@@ -223,7 +223,7 @@ Tous cela est très imparfait bien sûr et j'ai eu pas mal de problèmes d'index
 Dans ce projet, on créé un TapisVert qui contient 5 dés que l'on peut lancer.
 Représentation UML:
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/mon/temps-2.1/ulm_tapis.png">
+<img src="ulm_tapis.png">
 
 Code:
 

@@ -322,7 +322,7 @@ En résumé, Redux est une bibliothèque de gestion d'états pour les applicatio
 
 Les bibliothèques de composants telles que Bootstrap ou MUI sont des outils très utiles pour simplifier le développement d'interfaces utilisateur. Elles proposent des composants pré-conçus (boutons, formulaires, menus déroulants, etc.) qui peuvent être facilement intégrés dans une application. Les développeurs peuvent ainsi gagner du temps en évitant de réinventer la roue à chaque fois qu'ils ont besoin d'un composant standard.
 
-![Bootstrap et MUI](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Royant-Killian/mon/temps-3.1/bibliotheques.png)
+![Bootstrap et MUI](./bibliotheques.png)
 
 En utilisant une bibliothèque de composants, les développeurs peuvent également s'assurer que leur application a une apparence cohérente et professionnelle. Les composants de la bibliothèque ont généralement un style prédéfini, ce qui permet de garantir une homogénéité de l'interface utilisateur.
 
@@ -432,7 +432,7 @@ D'autres bibliothèques de composants populaires pour le développement d'applic
 
 Le CSS peut rapidement devenir fastidieux et limité dans sa fonctionnalité. Pour remédier à cela, il existe plusieurs alternatives qui peuvent améliorer la productivité des développeurs.
 
-![Outils CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Royant-Killian/mon/temps-3.1/css.png)
+![Outils CSS](./css.png)
 
 ### 🌊 TailwindCSS
 
@@ -517,7 +517,7 @@ Le code SASS présenté utilise une mixin appelée "button-base" pour définir l
 
 Les outils de compilation les plus couramment utilisés pour le développement front-end sont **Parcel**, **Create React App** et **Webpack**.
 
-![Compilation du code](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Royant-Killian/mon/temps-3.1/build.png)
+![Compilation du code](./build.png)
 
 Parcel est un outil de compilation de code JavaScript sans configuration, Create React App est un outil de développement front-end pour React et Webpack est un outil de compilation de code JavaScript très puissant qui prend en charge une grande variété de fichiers. Chacun de ces outils a ses avantages et ses inconvénients en fonction du contexte d'utilisation.
 

@@ -339,13 +339,13 @@ Envoyons des requêtes au serveur grâce au logiciel Insominia et observons les 
 
 On voit que si on envoie notre requête GET, le backend répond : 
 
-![get](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-3.1/get.png)
+![get](./get.png)
 
 Le mot de passe n'est pas dans la réponse, c'est ce que l'on veut.
 
 Si on essaie de créer un compte qui existe déjà, le backend répond : 
 
-![post](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-3.1/post.png)  
+![post](./post.png)  
 
 ### Création d'un account.
 
@@ -358,9 +358,9 @@ Notre frontend ne donc qu'une interface qui permet d'envoyer facilement les requ
 
 <div style = " display: grid;grid-template-columns: repeat(3, minmax(0, 1fr))">
 
-![account1](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-3.1/account1.png)
-![account2](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-3.1/account2.png)
-![account3](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bilgi-Tuncay/mon/temps-3.1/account3.png)
+![account1](./account1.png)
+![account2](./account2.png)
+![account3](./account3.png)
 
 </div>
 

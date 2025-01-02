@@ -113,8 +113,8 @@ Pour tester mon prototype, j'ai besoin de jeunes parents. J'ai contacté plus de
 
 Avec le temps qui défile à une vitesse folle, mon premier MVP n'en est pas un. L'idée était surtout de valider mes hypothèses de départ. J'ai donc envoyé un mail sous forme de questionnaire. J'ai aussi ajouté un croquis de mon site afin que mes testeurs puissent visualiser quelques fonctionnalités.
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/pok/temps-2/croq1.png">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/pok/temps-2/croq2.png">
+<img src="croq1.png">
+<img src="croq2.png">
 
 **Questions posées:**
 
@@ -189,15 +189,15 @@ Concernée par son porte-monnaie et l’environnement
 Je me suis inspirée d’autres sites de marque pour enfants eco responsables. On remarque que les tons majoritairement présents sont le rose, le marron et le vert.
 
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/pok/temps-2/mood.png">
+<img src="mood.png">
 
 - Les palettes de couleur : Je me suis inspirée du mood board pr sélectionner différentes palettes de couleurs correspondant à la marque
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/pok/temps-2/couleu.png">
+<img src="couleu.png">
 
 - La police : j’ai choisi des polices refletant les côtés simples et familiaux de la marque. Elles sont plus personnelles et arrondies que les polices classiques.
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/pok/temps-2/police.png">
+<img src="police.png">
 
 - Les écrans :
 J’ai choisis de réaliser 6 écrans qui reflètent les fonctionnalités principales de mon site :
@@ -208,12 +208,12 @@ L’onglet vêtements de ski
 L’onglet correspondant au panier
 l’onglet « Mon compte »
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/pok/temps-2/test.png">
+<img src="test.png">
 
 Après plusieurs tests couleur voici le resultat final. J’ai aussi choisi de mettre des photos des vêtements portés et sur fond de nature (dans le but de rappeler le côté eco-friendly de la boutique) . Je pensais que mes premiers dessins sur canvas ne me serviraient pas. Au final ils m’ont pas mal aidé pour remplir mes pages figma.
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/pok/temps-2/accueilv1.png">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Gacoin-Louise/pok/temps-2/cerev1.png">
+<img src="accueilv1.png">
+<img src="cerev1.png">
 
 J’ai enregistré une démo vidéo de la maquette afin de l’envoyer à mes testeurs qui n’habitent pas sur Marseille.
 

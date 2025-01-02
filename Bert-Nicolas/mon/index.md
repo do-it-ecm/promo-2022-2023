@@ -94,7 +94,7 @@ tags: ["html", "css", "JavaScript"]
         </div>
         <div class="mon margin-bottom">
             <div class="icon do-it">
-                <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/pikachu.png" style="border: 0"/>
+                <img src="./pikachu.png" style="border: 0"/>
             </div>
             <a href="./modif-site-do-it">
                 <span class="bold">Modification du site de Do-It</span>

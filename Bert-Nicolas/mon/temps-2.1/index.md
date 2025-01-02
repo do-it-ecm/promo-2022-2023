@@ -55,7 +55,7 @@ Premièrement, les précurseurs des microservices identifient l'architecture en 
 
 On peut schématiser les différentes architectures de la manière suivante :
 
-![Architecture composition](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.1/schema_comp_archi.png)
+![Architecture composition](./schema_comp_archi.png)
 
 ## Quels sont les avantages et inconvénients d'une architecture en microservices ?
 
@@ -83,7 +83,7 @@ Dans une architecture microservices, de nombreux services peuvent être présent
 
 La première idée qui nous vient pour faire communiquer des services entre eux est d'utiliser des API REST.
 
-![Orchestration 1](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.1/orch-1.png)
+![Orchestration 1](./orch-1.png)
 
 Cette façon de faire est assez simple à mettre en place mais le système devient rapidement complexe et fastidieux et maintenir puisque l'on crée des dépendances entre les services. Pour éviter cela, une meilleure façon est d'introduire une couche supplémentaire avec un nouveau service que l'on appelle l'**orchestrateur** :
 
@@ -95,7 +95,7 @@ L'orchestrateur est le seul service qui a connaissance de tous les autres. Ainsi
 
 La chorégraphie est une approche différente qui permet de pallier certains inconvénients de l'orchestration : la dépendance et la latence. Cette approche consiste à utiliser des événements avec un modèle *publish-subscribe* :
 
-![Choregraphie](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.1/chore-1.png)
+![Choregraphie](./chore-1.png)
 
 Ici, lorsqu'une action est effectuée, le service en question va publier un événement indiquant qu'il a effectué cette action. Les autres services quant à eux peuvent souscrire à cet événement de manière asynchrone pour effectuer les modifications nécessaires de l'événement. Les services n'ont pas connaissances des autres, le système est donc performant reste simple à maintenir à plus grande échelle. Si un service tombe en panne, le système continue de fonctionner mais l'on peut cependant perdre la cohérence des données.
 
@@ -125,7 +125,7 @@ Toutes ces fonctionnalités, qui sont externes au site (dans le sens où elles v
 
 L'auteur de l'[article](https://github.com/SebastienBtr/Micro-express) Sébastien Bouttier, nous mets à disposition une preuve de concept avec l'architecture suivante sous Docker :
 
-![Exemple](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Bert-Nicolas/mon/temps-2.1/sdd-diagram.png)
+![Exemple](./sdd-diagram.png)
 
 What you can do:
 

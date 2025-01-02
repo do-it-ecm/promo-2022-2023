@@ -79,7 +79,7 @@ truffle develop
 
 qui renvoit ici :
 <figure>
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Varnerot-Antoine/mon/temps-3.1/truffleDevelop.png">
+  <img src="./truffleDevelop.png">
 </figure>
 
 On voit que ca a créé 10 comptes avec leurs clés respectives.

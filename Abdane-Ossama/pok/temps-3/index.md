@@ -30,7 +30,7 @@ L'objectif de mon POK est de découvrir comment créer un jeu en python en suiva
 
 #### Résultat du premier sprint : 
 
-![Optional Text](https://raw.githubusercontent.com/do-it-ecm/promo-2022-2023/main/Abdane-Ossama/pok/temps-3/Image.png)
+![Optional Text](./Image.png)
 
 
 #### Sprint 2
