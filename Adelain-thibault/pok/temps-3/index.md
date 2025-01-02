@@ -95,13 +95,13 @@ docker inspect <container>
 Pour accéder à un container en cli :
 
 ```bash
-docker exec -it <container> bash 
+docker exec -it <container> bash
 ```
 
 ou
 
 ```bash
-docker exec -it <container> sh 
+docker exec -it <container> sh
 ```
 
 Après ces modifications, l'application a bien fonctionnée.
