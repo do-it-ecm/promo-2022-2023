@@ -28,7 +28,7 @@ var tricountSettings = {
 * Take the form from the SourceSheet to add it in the TargetSheet
 * It add also formulas to calculate the impact on everybody balance
 
-* I built this function, inspired by the work of --Hyde 
+* I built this function, inspired by the work of --Hyde
 * see https://support.google.com/docs/thread/41717054
 */
 function tricountAddToHistory() {
@@ -98,7 +98,7 @@ function tricountAddToHistory() {
   for(let i=0;i<nb_people;i++){
     formulas = formulas.concat("=IF(R[0]C[-"+(2+nb_people+i)+"]=\""+tricountSettings.people[i]+"\";R[0]C[-"+(3+nb_people+i)+"];0) - IF(R[0]C[-"+(1+nb_people)+"];R[0]C[-"+(3+nb_people+i)+"]/R[0]C[-"+(1+i)+"];0)")
   }
-  
+
   sheet.getRange(tricountSettings.targetSheet+"!"+columnToLetter(5+nb_people)+wherePut+":"+columnToLetter(5+2*nb_people)+wherePut).setFormulasR1C1([formulas])
   sheet.getRange(tricountSettings.targetSheet+"!"+columnToLetter(7+2*nb_people)+wherePut+":"+columnToLetter(8+2*nb_people)+wherePut).setFormulasR1C1([["=SUM(R[0]C[-"+(1+nb_people)+"]:R[0]C[-2])","=MONTH(R[0]C[-"+(7+2*nb_people)+"])"]])
 
@@ -198,7 +198,7 @@ function generateSheet(){
   sourceSheet.getRange(columnToLetter(6+nb_people)+"2").setFontColor("white")
 
   //TargetSheet
-  
+
   liste = ["Timestamp","Commentaire","Prix","Payé par"].concat(tricountSettings.people)
   liste.push("Nb Personnes")
   tricountSettings.people.forEach(person=>{
