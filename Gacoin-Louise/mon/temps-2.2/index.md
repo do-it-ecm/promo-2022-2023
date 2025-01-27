@@ -19,8 +19,8 @@ L'objectif de ce MON est de découvrir comment créer un site web et le déploye
 Ce MON s'adresse aux débutants, très débutants en informatique. Il ne présuppose aucune connaissance.
 
 Pour les plus expérimentés en développement qui veulent savoir comment déployer, dirigez vous vers les MON suivants:
-- MON 2.1 de Nathan Gissler [Web Back](https://francoisbrucker.github.io/do-it/mon/NG/mon-2-1/)
-- MON 2.1 de Thimothée Bermond [Publier son site sur un serveur web](https://francoisbrucker.github.io/do-it/mon/TB/Mes_MON/ServeurWeb/)
+- MON 2.1 de Nathan Gissler [Web Back]({{ site.url }}/mon/NG/mon-2-1/)
+- MON 2.1 de Thimothée Bermond [Publier son site sur un serveur web]({{ site.url }}/mon/TB/Mes_MON/ServeurWeb/)
 
 # Sommaire:
 1. Qu'est ce que Django?
@@ -40,17 +40,17 @@ Framework signifie "cadre de travail" en français. Un framework est un ensemble
 Chaque framework fonctionne avec un ou plusieurs langages de programmation.
 {% endinfo %}
 
-Si vous voulez en savoir plus sur Django, je vous conseille ce MON  de Jeffrey EDISAH [Introduction au Backend avec Django](https://francoisbrucker.github.io/do-it/mon/JE/mons/django/) 
+Si vous voulez en savoir plus sur Django, je vous conseille ce MON  de Jeffrey EDISAH [Introduction au Backend avec Django]({{ site.url }}/mon/JE/mons/django/)
 
-Le tutoriel Django Girls: 
+Le tutoriel Django Girls:
 Ce tuto veut nous "emmener dans un voyage sous le capot des technologies web, en nous offrant un aperçu de tous les pièces et les morceaux qui doivent être assemblés pour que le web fonctionne tel que nous le connaissons."
-Ce tutoriel est pensé pour les EXTREMEMENT débutants en informatique. il couvre beaucoup de sujet différents comme la théorie du fonctionnement des sites web, les bases de python/HTML/CSS et le déploiement d'un site sur internet (avec Github et PythonAnywhere).  
+Ce tutoriel est pensé pour les EXTREMEMENT débutants en informatique. il couvre beaucoup de sujet différents comme la théorie du fonctionnement des sites web, les bases de python/HTML/CSS et le déploiement d'un site sur internet (avec Github et PythonAnywhere).
 A la fin du tutoriel, on aura créé un blog sur lequel on peut faire des posts.
 
 
 ## 2. Un peu de théorie
 
-Le tutoriel commence par nous (ré)expliquer certains concepts: 
+Le tutoriel commence par nous (ré)expliquer certains concepts:
 
 **Comment fonctionne un site web?**
 Un site Web consiste en un tas de fichiers sauvegardés sur un disque dur. Certains de ces fichiers contiennent du code en html.
@@ -59,10 +59,10 @@ Le site web est stocké sur un serveur.
 Lorsqu'on veut se connecter à un site web grâce à son URL, le serveur reçoit une requête. Il renvoit alors le site web vers notre ordinateur.
 
 **Comment fonctionne un terminal?**
-Cette fenêtre, qu'on appelle aussi ligne de commande ou interface en ligne de commande, est une application textuelle qui permet de voir et de manipuler des fichiers sur votre ordinateur. C'est un peu la même chose que l'Explorateur Windows  mais sans interface graphique. 
+Cette fenêtre, qu'on appelle aussi ligne de commande ou interface en ligne de commande, est une application textuelle qui permet de voir et de manipuler des fichiers sur votre ordinateur. C'est un peu la même chose que l'Explorateur Windows  mais sans interface graphique.
 
 Tout cela vous semble peut-être évident. Pour moi ça ne l'était forcément.
-Dans le tutoriel DjangoGirls on va beaucoup utiliser ce terminal. C'est l'occasion de se familiariser avec. 
+Dans le tutoriel DjangoGirls on va beaucoup utiliser ce terminal. C'est l'occasion de se familiariser avec.
 Le tutoriel comporte un chapitre sur Python (que vous connaissez déjà bien depuis votre prépa). C'est l'occasion de faire une petite révision...
 Pour la suite, nous allons utiliser VSCode.
 
@@ -97,7 +97,7 @@ On peut créer des héritages de templates, C'est à dire créer un template de 
 
 Voir la documentation de Django: https://docs.djangoproject.com/fr/4.1/topics/templates/
 
-Les fichiers statiques correspondent à tous vos CSS et vos images. Leur contenu ne dépend pas du contexte de la requête et sera le même pour tous les utilisateurs. 
+Les fichiers statiques correspondent à tous vos CSS et vos images. Leur contenu ne dépend pas du contexte de la requête et sera le même pour tous les utilisateurs.
 A noter qu'il faut effectuer une commande supplémentaire pour mettre à jour ces fichiers sur le serveur.
 
 
@@ -125,7 +125,7 @@ Vous trouverez plus de détails ici: https://docs.djangoproject.com/fr/4.1/topic
 
 ## 6. Résultat et retour d'expérience
 
-A l'issue de ce tutoriel j'ai bien obtenu mon blog , déployer sur internet. En voici quelques images: 
+A l'issue de ce tutoriel j'ai bien obtenu mon blog , déployer sur internet. En voici quelques images:
 
 <img src='blog1.png'>
 <img src='blog2.png'>

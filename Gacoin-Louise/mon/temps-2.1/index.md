@@ -16,8 +16,8 @@ tags:
 ---
 L'objectif de ce MON est d'acquérir les bases en programmation objet sur python. Pour cela j'ai suivis [le cours de Monsieur Brucker ][https://francoisbrucker.github.io/cours_informatique/cours/algorithme-code-th%C3%A9orie/code/programmation-objet/].
 Ce MON s'adresse aux débutants en informatique. Si vous maîtrisez déjà les bases de la POO, dirigez vous vers les MON suivants:
-- MON 1.2 de Nicolas BERT [Programmation objet en Python](https://francoisbrucker.github.io/do-it/mon/NB/mes-mon/poo-python/) (Bon exemple de programme )
-- MON 1.1 de Tuncay Bilgi [POO](https://francoisbrucker.github.io/do-it/mon/TBi/MON/POO/) (fonctionnalités avancées)
+- MON 1.2 de Nicolas BERT [Programmation objet en Python]({{ site.url }}/mon/NB/mes-mon/poo-python/) (Bon exemple de programme )
+- MON 1.1 de Tuncay Bilgi [POO]({{ site.url }}/mon/TBi/MON/POO/) (fonctionnalités avancées)
 
 # Sommaire:
 1. Qu'est ce que la programmation objet
@@ -28,7 +28,7 @@ Ce MON s'adresse aux débutants en informatique. Si vous maîtrisez déjà les b
 
 ## 1. Qu'est ce que la programmation objet
 
-# Cours  
+# Cours
 
 Une vidéo explicative sympa pour commencer: https://www.youtube.com/watch?v=3-qqjlY3tCM
 
@@ -36,17 +36,17 @@ La programmation objet permet de découper son code en petites parties simples, 
 Une classe permet de créer un type d'objet et de définir les opérations que l'on peut effectuer dessus.
 
 Un objet issu d'une certaine classe :
-    • possède des attributs uniques. (Chaque objet de la classe possèdent les mêmes caractéristiques mais leur valeurs sont différentes pour chaque objet) 
-    • possède des méthodes définies dans sa classe 
+    • possède des attributs uniques. (Chaque objet de la classe possèdent les mêmes caractéristiques mais leur valeurs sont différentes pour chaque objet)
+    • possède des méthodes définies dans sa classe
 
 Pour représenter un objet on utilise la représentation ULM.
 
 <img src="ulm.png">
 
 On voit bien ce qui compose la classe:
-  - Un nom 
-  - Des méthodes (= fonctionnalités  qui sont pareilles pour tous les objets) 
-  - Un attribut (= qui est différent pour chaque objet) 
+  - Un nom
+  - Des méthodes (= fonctionnalités  qui sont pareilles pour tous les objets)
+  - Un attribut (= qui est différent pour chaque objet)
 
 Finalement, une classe python s'écrira de cette manière:
 
@@ -69,7 +69,7 @@ Lorsque l'on définit une classe, python lui associe un espace de noms. Les diff
 
 
 {% info "Remarques" %}
-- Le cours permet de bien comprendre ce que sont les objets et les classes avec des exemples simples. Cependant j'ai peur de ne pas m'en sortir quand la diffciluté augmentera 
+- Le cours permet de bien comprendre ce que sont les objets et les classes avec des exemples simples. Cependant j'ai peur de ne pas m'en sortir quand la diffciluté augmentera
 - J'ai encore du mal à comprendre les subtilités des espaces de noms. Je retiens surtout que si on utilise deux fois le même nom à l'intérieur d'une même classe on risque d'avoir des soucis...
 
 {% endinfo %}
@@ -90,13 +90,13 @@ class Grille:
     def __init__(self,nb_ligne, nb_colonne):
         self.nb_ligne = nb_ligne
         self.nb_colonne = nb_colonne
-        self.carte=[["."]*self.nb_ligne for i in range(self.nb_colonne)] 
-        
+        self.carte=[["."]*self.nb_ligne for i in range(self.nb_colonne)]
+
 
     def affiche(self):
         print (self.carte)
 
-  
+
     def tirer(self,ligne,colonne):
         x=ligne-1 # self.qqch signifie qu'on créer un attribut.
         #  Imposible dans une fonction. Ne pas rajouter des attributs qui sont pas dans le constructeur
@@ -104,12 +104,12 @@ class Grille:
         if x>self.nb_ligne or y>self.nb_colonne:
             return self
             print("Tir hors de la grille")
-        
+
         else:
             self.carte[x][y]='o'
             return self
 
-    def ajoute(self,bateau): 
+    def ajoute(self,bateau):
         if bateau.vertical== True:
             if self.nb_ligne>= bateau.ligne+bateau.longueur:
                 for i in range (bateau.longueur):
@@ -183,7 +183,7 @@ while b.coulé(g1)!= True:
         print("C'est touché")
         g1.carte[x-1][y-1]="X"
 
-g1.affiche()    
+g1.affiche()
 
 ```
 
@@ -194,8 +194,8 @@ Tous cela est très imparfait bien sûr et j'ai eu pas mal de problèmes d'index
 {% info "Difficultés" %}
 - J'ai eu du mal à comprendre comment bien utiliser "self". J'ai pas mal pataugé au début à cause de cela
 - L'appel d'un objet de la classe Bateau dans l'écriture d'une méthode de la classe Grille m'a aussi posé problème
-- J'ai bien compris la théorie des tests mais la réalisation de vrais tests vraiment efficaces reste assez mystérieuse 
-- Petit bonus: j'ai appris à utiliser le débogueur pour comprendre les problèmes de mon code 
+- J'ai bien compris la théorie des tests mais la réalisation de vrais tests vraiment efficaces reste assez mystérieuse
+- Petit bonus: j'ai appris à utiliser le débogueur pour comprendre les problèmes de mon code
 
 {% endinfo %}
 
@@ -203,7 +203,7 @@ Tous cela est très imparfait bien sûr et j'ai eu pas mal de problèmes d'index
 
 
 ## 2 Composition et agrégation
- 
+
  # Cours
 
  Une composition est crée avec un ensemble d'objets. Elle est crée avec une classe.
@@ -256,7 +256,7 @@ class TapisV:
             self.liste[i]=randint(1,6)
 
     def get_valeur(self):
-        return self.liste  
+        return self.liste
 
 ```
 
@@ -308,13 +308,13 @@ def test_objet():
 
 
 ## 3.Héritage
- 
+
  # Cours
 
-L'héritage permet de créer des classes filles qui sont des cas particuliers de leur classe mère. 
+L'héritage permet de créer des classes filles qui sont des cas particuliers de leur classe mère.
 Une classe fille hérite de tous les attributs et méthodes de sa mère. On peut lui ajouter  des méthodes spécifiques.
 
-Par exemple: 
+Par exemple:
 
 {% prerequis "Source" %}
 
@@ -323,12 +323,12 @@ Par exemple:
 
 Un bon exemple de programme qui utilise l'héritage :
 
--MON 1.2 de Nicolas BERT [Programmation objet en Python](https://francoisbrucker.github.io/do-it/mon/NB/mes-mon/poo-python/)
+-MON 1.2 de Nicolas BERT [Programmation objet en Python]({{ site.url }}/mon/NB/mes-mon/poo-python/)
 
  # Pratique
 
 Pour tester l'héritage j'ai ajouté une classe de sous-marins à ma bataille navale.
-Ces sous marins peuvent plonger. Ils sont alors invisibles et intouchables: 
+Ces sous marins peuvent plonger. Ils sont alors invisibles et intouchables:
 
 ```python
 
@@ -348,7 +348,7 @@ class Sous_marin(Bateau):
 
     def coulé(self, grille):
         if self.visible==True:
-            super().coulé(grille)    
+            super().coulé(grille)
         else:
             print("c'est raté ")
 
@@ -358,7 +358,7 @@ class Sous_marin(Bateau):
 
 Pour conclure ce MON voici un petit retour d'expérience concernant le cours de Monsieur Brucker.
 
-Le cours est clair avec des exemples simples à comprendre. La première partie du cours est celle qui m'a posée le plus de diffcultées car elle introduit beaucoup de notions. La différence de difficulté entre les exemples du cours et la bataille navale m'a paru trop grande. 
+Le cours est clair avec des exemples simples à comprendre. La première partie du cours est celle qui m'a posée le plus de diffcultées car elle introduit beaucoup de notions. La différence de difficulté entre les exemples du cours et la bataille navale m'a paru trop grande.
 Les parties suivantes sur l'héritage et les compositions,agrégations n'ont pas posé problème.
 
 En résumé ce cours permet de bien comprendre les basses de la POO. Cependant il sera sans doute un peu compliqué à suivre pour les débutants (surtout en ce qui concerne les notions complexes). De plus il manque d'exemple plus compliqués, ce qui a rendu la bataille navale très dure à mettre en place pour moi.

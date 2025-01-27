@@ -39,19 +39,19 @@ Comprendre les besoins qui mènent à l'utilisation d'un outil comme Jenkins pou
 Pré-requis :
 - Connaître le contexte de development Fullstack.
 - Linux, CLI, shell, ssh
-- Git, Github 
+- Git, Github
 - [Docker](./../Docker).
 - Un [projet](./../../../../pok/un-site-chez-moi/TBi/Artblog) à portée de mains, (la doc Jenkins en fourni un).
 {%endprerequis%}
 
-### Ressources utilisées : 
+### Ressources utilisées :
 - [Documentation Jenkins (un peu dur à lire)](https://www.jenkins.io/doc/tutorials/)
 - [Vidéo introductive sur les concepts](https://www.youtube.com/watch?v=LFDrDnKPOTg&ab_channel=Simplilearn)
-- [Magnifique MON sur Docker](./../Docker) 
+- [Magnifique MON sur Docker](./../Docker)
 - [Excellent POK de blog en React](./../../../../pok/un-site-chez-moi/TBi/Artblog) ou [Incroyable POK de plagiat de la FDJ en Svelte](./../../../../)
-## Continuous Delivery and Continuous Integration (CI/CD) : 
+## Continuous Delivery and Continuous Integration (CI/CD) :
 
-Ce sont des concepts de développement qui ont plusieurs but : 
+Ce sont des concepts de développement qui ont plusieurs but :
 
  - Améliorer la qualité du code
  - Faciliter la vie des développeurs
@@ -75,7 +75,7 @@ Par exemple ce site de M.Brucker utilise de la CI/CD :
   - A chaque commit sur la branche principale, le code est testé par Github action
   - Si les tests passent, le code est déployé sur le site github.io et la dernière version est disponible directement sans que M.Brucker ait besoin de déployer quoi que ce soit lui-même
 
-  Le problème avec cette manière de procéder est que l'on peut push un commit monstrueux qui détruit le site. Peut importe l'état des tests, le commit sera accepté et il faudra réparer le code avant de pouvoir déployer le site à nouveau. 
+  Le problème avec cette manière de procéder est que l'on peut push un commit monstrueux qui détruit le site. Peut importe l'état des tests, le commit sera accepté et il faudra réparer le code avant de pouvoir déployer le site à nouveau.
 
 {% endinfo %}
 
@@ -85,14 +85,14 @@ Par exemple ce site de M.Brucker utilise de la CI/CD :
 
  L'idée est d'un tel outil est de mettre en place un environnement d'intégration continue. C'est à dire que le but est de créer un outil qui permet de développer, tester et pousser le code automatiquement, dès sa création. Par exemple, au lieu d'ajouter de nouvelles fonctionnalités sur notre site web, de faire un commit sur le repository, puis se rendre compte qu'il ne marche pas et corriger les bugs puis recommencer, on peut automatiser tout ça. Dans le meilleur des cas, à chaque nouvelle fonctionnalité, elle est automatiquement testée puis intégrée dans une version viable du code, prête à être déployée. Si les tests détectent des erreurs ou des incompatibilités dans le code, la nouvelle fonctionnalité n'est pas intégrée dans la branche principale et le développeur peut la retravailler sans jamais corrompre la version du code qui marche.
 
-{%details "Des outils et des outils pour la CI"%} 
+{%details "Des outils et des outils pour la CI"%}
 - Bamboo
 - Buildbot
 - Apache Gump (pour Java)
 - Travis CI (qui fonctionne avec Github)
 - Github Action
 - Jenkins
-{%info%}Liste non exhaustive réalisée après quelques minutes sur google.{%endinfo%} 
+{%info%}Liste non exhaustive réalisée après quelques minutes sur google.{%endinfo%}
 {%enddetails%}
 
 
@@ -119,13 +119,13 @@ Je ne recopie pas la doc ici, seulement les subtilités que je rencontres et les
 {%attention%} Blue Ocean n'est plus mis à jour. Le process d'installation fonctionne correctement et vous pourrez probablement utiliser le plugin à partir d'ici, mais je préfère rester sur des technologies à jour, ignorez ce qui concerne Blue Ocean si vous ne souhaitez pas l'utiliser. {%endattention%}
 
 Le tutoriel de Jenkins utilise **Docker:dind** et les **Networks** de Docker. Ce sont des outils qui permettent de créer plusieurs containers et de les lier entre eux. Le problème : il existe maintenant des manières plus simples. Nous avons Docker compose, qui est sensé faire la même chose mais plus simplement, j'essaie de me débrouiller avec ça.
-En lisant la doc je vois que j'ai besoin de 2 services : 
+En lisant la doc je vois que j'ai besoin de 2 services :
 
-  - Jenkins 
+  - Jenkins
   - App, service qui va lancer mon instance node
 
 J'écris un Docker-compose.yml qui invoque ces deux types de conteneur, avec des images que j'ai récupéré sur le site officiel [DockerHub](https://hub.docker.com/)
-Aussi, je pull les images avant de lancer le compose : 
+Aussi, je pull les images avant de lancer le compose :
 
     docker pull jenkins/jenkins:alpine-lts
     docker pull node-16alpine
@@ -172,16 +172,16 @@ Le fait de lancer un projet dans un container peux créer des erreurs nouvelles,
 Par exemple, dans le container, je reçois une erreur de React que je n'avais pas avant.
 {%endattention%}
 
-### Les mains dans Jenkins : 
+### Les mains dans Jenkins :
 
-#### Blue Ocean : 
+#### Blue Ocean :
 
 {%attention%} Blue Ocean n'est plus mis à jour. Le process d'installation fonctionne correctement et vous pourrez probablement utiliser le plugin à partir d'ici, mais je préfère rester sur des technologies à jour, passez à la partie suivante si besoin. {%endattention%}
 
-Un fois sur Jenkins : 
+Un fois sur Jenkins :
 On passe d'abord la langue en anglais car la traduction est désastreuse, pour cela, il faut installer le plugin **Local**. Ensuite, on installe le plugin **Blue Ocean** puis **Pipeline** on restart jenkins. ( C'est long ). Finalement on bascule sur **Blue Ocean**.
 
-Voici le résultat : 
+Voici le résultat :
 
 <img src="./blueocean1.png" alt="Composer" style="height: 200px; margin: 0 auto; border: 0" />
 
@@ -191,11 +191,11 @@ La suite de la doc est [ici](https://www.jenkins.io/doc/book/blueocean/creating-
 
 Après avoir installé **Pipeline**, on à accès à ce nouveau type de workflow. On suit la doc [ici](https://www.jenkins.io/doc/book/pipeline/getting-started/).
 
-On crée notre premiere pipeline en suivant la doc et on l'execute : 
+On crée notre premiere pipeline en suivant la doc et on l'execute :
 
 <img src="./jenkins1.png" alt="Composer" style="height: 200px; margin: 0 auto; border: 0" />
 
-#### Les Jenkinsfile : 
+#### Les Jenkinsfile :
 
 Ici je crée une Pipeline qui se connecte à mon Github et qui execute un echo hello world.
 
@@ -277,4 +277,4 @@ Pour cela on installe des plugins notamment **Github API** qui permet de gérer 
 #### Plan de secours : Job périodique :
 
 La méthode pour contourner le problème des webhooks est celle mise en place dans le POK CI-CD : on demande à jenkins de regarder toutes les heures le dernier commit de notre repo, si ce commit est identifié comme non-déployé on le déploie et on le met dans la base de données des commits déployés.
-Voir le [POK](https://francoisbrucker.github.io/do-it/pok/un-site-chez-moi/TBi/CI-CD/) en question pour plus de détails et pour une implémentation qui fonctionne.
+Voir le [POK]({{ site.url }}/pok/un-site-chez-moi/TBi/CI-CD/) en question pour plus de détails et pour une implémentation qui fonctionne.

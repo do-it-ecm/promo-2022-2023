@@ -41,17 +41,17 @@ Le but est d'apprendre à structurer un Backend proprement.
 
 ### Ressources :
 
-- Les documentations : 
+- Les documentations :
   - [Nodejs](https://nodejs.org/en)
   - [Expressjs](https://expressjs.com/fr/)
   - [TypeORM](https://typeorm.io/)
   - [React](https://fr.reactjs.org/)
 
-- Les MON associés : 
-  - [MON web frontend](https://francoisbrucker.github.io/do-it/mon/AV/mons/web-front-1/)
-  - [MON Docker](https://francoisbrucker.github.io/do-it/mon/TBi/MON/Docker/)
+- Les MON associés :
+  - [MON web frontend]({{ site.url }}/mon/AV/mons/web-front-1/)
+  - [MON Docker]({{ site.url }}/mon/TBi/MON/Docker/)
 
-- Code source : 
+- Code source :
 
 - [Mon github](https://github.com/TuncayBilgi/cybersecenv)
 
@@ -60,10 +60,10 @@ Le but est d'apprendre à structurer un Backend proprement.
 - Pour la théorie : Avoir un ordinateur, une connexion internet, l'eau courante
 - Pour la pratique : Avoir une première expérience avec le développement web.
 
-### Étapes :  
+### Étapes :
 - Comment marche une application web
 - Architecture du BackEnd
-- Initialisation du projet : 
+- Initialisation du projet :
 - Frontend
 - Backend
 - Base de données
@@ -89,7 +89,7 @@ Ces parties communiquent entre elles à travers ce qu'on appelle des requêtes. 
 
 #### Exemple à la mode en 2023 - ChatGPT :
 
-L'utilisateur interagit avec une page qui permet de poser une question à l'IA ChatGPT. Cette page est le frontend, qui est exécutée par son ordinateur. Quand il rentre sa question et qu'il appuie sur le bouton envoyer, son ordinateur va envoyer une requête au Backend de CHatGPT, qui tourne sur les serveurs de OpenAI. 
+L'utilisateur interagit avec une page qui permet de poser une question à l'IA ChatGPT. Cette page est le frontend, qui est exécutée par son ordinateur. Quand il rentre sa question et qu'il appuie sur le bouton envoyer, son ordinateur va envoyer une requête au Backend de CHatGPT, qui tourne sur les serveurs de OpenAI.
 
 Ce backend, va récupérer la question, et la passer à travers l'IA pour avoir une réponse. Il va ensuite renvoyer cette réponse au frontend pour qu'elle soit affichée à l'utilisateur. Enfin, quand l'utilisateur à fini d'interagir, le backend va formatter les données de l'utilisateur : Le nom de compte, la question posée, la réponse renvoyée etc.. et il va placer ces données dans la base de données pour qu'elles y restent longtemps.
 
@@ -98,7 +98,7 @@ La prochaine fois que l'utilisateur vient sur le site de ChatGPT, sans qu'il ait
 ### Les attentes différentes remplies par les trois parties d'une application :
 
 Ces trois parties ayant des rôles bien différents, leurs code n'a rien à voir. Coder du Frontend ne ressemble pas à coder du backend, on n'utilise pas les mêmes fonctions, on ne se pose pas les mêmes questions, et parfois, on n'utilise même pas le même langage de programmation.
-Par exemple : 
+Par exemple :
 
 - Le frontend à besoin d'être du code qui puisse être lu par les navigateurs web.
 - Le backend à besoin d'être du code relativement efficace, qui réalise le travail sans gaspiller de ressources et de façon consistante pour tous les utilisateurs.
@@ -135,9 +135,9 @@ Langage incontournable du développement web. Le javascript sert en premier lieu
 Le python à le mérite d'être simple à appréhender. Il possède des librairies qui facilitent d'autant plus la création de site web. Malheureusement, ce n'est pas un langage compris par les navigateurs web, il n'est donc utilisé que pour le backend. Sont utilisation est cependant restreinte. En effet, le langage est lent est gourmand en ressources, l'inverse de ce dont en a besoin en Backend.
 
 - Typescript (ts) :
-langage récent qui est un Superset du Js. C'est à dire que c'est du Javascript avec des fonctionnalités en plus. Ces fonctionnalités sont principalement les types. Ts est donc un langage typé, c'est à dire que pour définir une variable, il faut lui donner un type qui ne peut pas être changé. Ce langage est utilisé autant en Front qu'en Back puisque qu'il est compilé en Javascript. C'est à dire qu'à partir du code en TS, un compilateur va créer un nouveau code en Js. Ce langage est de plus en plus utilisé par les développeur javascript car il facilite le développement. 
+langage récent qui est un Superset du Js. C'est à dire que c'est du Javascript avec des fonctionnalités en plus. Ces fonctionnalités sont principalement les types. Ts est donc un langage typé, c'est à dire que pour définir une variable, il faut lui donner un type qui ne peut pas être changé. Ce langage est utilisé autant en Front qu'en Back puisque qu'il est compilé en Javascript. C'est à dire qu'à partir du code en TS, un compilateur va créer un nouveau code en Js. Ce langage est de plus en plus utilisé par les développeur javascript car il facilite le développement.
 
-- JSON : 
+- JSON :
 Format de données utilisé par les applications web pour communiquer.
 
 #### Les API :
@@ -188,11 +188,11 @@ Par exemple si je crée un projet avec certains frameworks, et que quelqu'un veu
 
 - Frontend :
 
-[ReactJS](https://francoisbrucker.github.io/do-it/mon/NB/mes-mon/react/) et [Angular](https://francoisbrucker.github.io/do-it/mon/TBi/MON/Angular/) nous proposent de créer des composants, qui seront insérés dans une page html et envoyés à l'utilisateur. Ils ont des opinions différentes.
+[ReactJS]({{ site.url }}/mon/NB/mes-mon/react/) et [Angular]({{ site.url }}/mon/TBi/MON/Angular/) nous proposent de créer des composants, qui seront insérés dans une page html et envoyés à l'utilisateur. Ils ont des opinions différentes.
 
 Angular prône une séparation totale des fonctions. La page html ne s'occupe que de l'affichage, le fichier js (javascript) s'occupe de l’interactivité. Chaque composant est défini par une classe et on doit donc faire attentions à certaines problématiques lié à cela. La communication entre le html et le js est gérée par des fonctions propre à Angular.
 
-React prône plus de flexibilité. Les pages sont en jsx, qui est une fusion de html et de js. Cette page affiche des composants qui sont aussi en jsx et on peut y placer si nécessaire l’interactivité. Aussi, les composants sont des fonctions, et ils interagissent entre avec des hooks, des fonctions préconstruites. 
+React prône plus de flexibilité. Les pages sont en jsx, qui est une fusion de html et de js. Cette page affiche des composants qui sont aussi en jsx et on peut y placer si nécessaire l’interactivité. Aussi, les composants sont des fonctions, et ils interagissent entre avec des hooks, des fonctions préconstruites.
 
 Comme on peut le voir, les deux frameworks répondent aux mêmes besoins, d'une manière (parfois subtilement) différente.
 
@@ -205,7 +205,7 @@ TypeORM nous force à suivre l'architecture classique d'un backend(que l'on verr
 
 #### Quels Framework utiliser ?
 
-Pour mettre en place ces trois composantes d'un application, nous pouvons : 
+Pour mettre en place ces trois composantes d'un application, nous pouvons :
 
 - Écrire du code à la volée, ne pas utiliser de framework.
 - séparer le code de sorte à avoir trois services, qui fonctionnement en parallèle.
@@ -223,13 +223,13 @@ La troisième idée est plus récente, le plus gros avantage est de ne as avoir 
 Le backend réalise plusieurs actions spécifiques, il :
 
 - Expose une application sur le port spécifique d'un serveur.
-- Expose des routes (des urls) à travers lesquelles on peut communiquer avec lui. 
+- Expose des routes (des urls) à travers lesquelles on peut communiquer avec lui.
 - Execute du codes selon les requêtes qui lui sont envoyées.
 - Il met en place des requêtes pour aller chercher des informations dans la base de données.
 - Il façonne des objets pour les enregistrer dans la base de données.
 
 
-Pour réaliser ces divers tâches, on pourrait tout rassembler dans un seul fichier nommé par exemple backend.js . Le problème, est que cette méthode créer un immense fichier illisible, dur à debugger ou à factoriser quand il y a besoin de mener des changements. On essaie donc, au maximum de fractionner le projets en fichiers qui n'ont qu'une unique fonction. on aura donc, dans l'ordre défini précédemment : 
+Pour réaliser ces divers tâches, on pourrait tout rassembler dans un seul fichier nommé par exemple backend.js . Le problème, est que cette méthode créer un immense fichier illisible, dur à debugger ou à factoriser quand il y a besoin de mener des changements. On essaie donc, au maximum de fractionner le projets en fichiers qui n'ont qu'une unique fonction. on aura donc, dans l'ordre défini précédemment :
 
 - Le fichier index
 - Le contrôleur
@@ -239,7 +239,7 @@ Pour réaliser ces divers tâches, on pourrait tout rassembler dans un seul fich
 
 Notre Backend va gérer la création de comptes pour un site grâce à TypeORM.
 
-l’arborescence est la suivante : 
+l’arborescence est la suivante :
 
 backend
 |_controller
@@ -256,26 +256,26 @@ Enfin, le fichier index.ts reprend toute l'application et la rend accessible sur
 
 Coté frontend, on à une application qui permet d'envoyer des requêtes sur le même port 3000 de votre ordinateur, ces requêtes seront donc directement captées par votre backend.
 
-## Mise en place d'une application : 
+## Mise en place d'une application :
 
 ### Initialisation du projet :
 
 On commence par se placer dans un dossier vierge que l'on ouvre dans un éditeur de code (VS code pour moi). On peut faire un git init, voici d'ailleurs le [lien du repository git de ce projet sur mon github](https://github.com/TuncayBilgi/cybersecenv). N'hésitez pas à aller regarder le code directement là-bas, je ne vais pas le copier-coller ici.
-On aura deux dossiers principaux : 
+On aura deux dossiers principaux :
 - Frontend
 - Backend
 
 En dehors de ces deux fichiers, on viendra placer les fichiers utiles pour la globalité du projet, comme un fichier .env qui possède des variables d'environment, un fichier .gitignore etc..
 
 {%details "Cette partie demande plus de pré-requis."%}
-Savoir utiliser : 
+Savoir utiliser :
 - un Logiciel pour coder (comme VScode)
 - javascript
 - les langages typés
 - la programmation orientée objet
 - un outil d'envoie de requête (curl, postman ou insomnia)
 
-Avoir installé : 
+Avoir installé :
 - Node.js
 - Docker
 {%enddetails%}
@@ -287,7 +287,7 @@ On choisit d'utiliser le framework ReactJs, on initialise donc un projet React :
 le front peut être lancé sur le port par défaut 5432 grâce à la commande :
 `npm run dev`
 
-On ne s'occupe pas plus du front ici, référez vous à des MON tels que [Angular](https://francoisbrucker.github.io/do-it/mon/AV/mons/web-front-1/) [Angular2](https://francoisbrucker.github.io/do-it/mon/TBi/MON/Angular/) [React](https://francoisbrucker.github.io/do-it/mon/NB/mes-mon/react/).
+On ne s'occupe pas plus du front ici, référez vous à des MON tels que [Angular]({{ site.url }}/mon/AV/mons/web-front-1/) [Angular2]({{ site.url }}/mon/TBi/MON/Angular/) [React]({{ site.url }}/mon/NB/mes-mon/react/).
 
 #### Backend :
 On utilise les Frameworks suivants :
@@ -305,7 +305,7 @@ On peut y voir plusieurs dossiers, on y revient dans le chapitre d'après.
 
 #### Base de données :
 
-On met en place une base de données PostgreSQl. Elle est hébergée à travers un conteneur docker. Je vous invite à voir le [MON Docker](https://francoisbrucker.github.io/do-it/mon/TBi/MON/Docker/) et/ou de copier coller mon fichier [docker-compose](https://github.com/TuncayBilgi/cybersecenv/blob/main/cyberenv-back/docker-compose.yml).
+On met en place une base de données PostgreSQl. Elle est hébergée à travers un conteneur docker. Je vous invite à voir le [MON Docker]({{ site.url }}/mon/TBi/MON/Docker/) et/ou de copier coller mon fichier [docker-compose](https://github.com/TuncayBilgi/cybersecenv/blob/main/cyberenv-back/docker-compose.yml).
 Vous pouvez aussi mettre en place votre base de données vous même.
 
 Le plus important est de modifier le fichier data-source.ts . Ce fichier rassemble toutes les informations liées à la connexion à votre base de données. Il est appelé dans les différentes contrôleurs.
@@ -329,23 +329,23 @@ On met en place dans accountService toutes les fonctions qui concernent la créa
 Il nous faut alors une base de données, elle est hébergée dans un conteneur Docker et est lancé grâce à un fichier docker-compose.yml .
 
 Ensuite, nous mettons en place dans [route.ts](https://github.com/TuncayBilgi/cybersecenv/blob/main/cyberenv-back/src/routes.ts) et [accountController.ts](https://github.com/TuncayBilgi/cybersecenv/blob/main/cyberenv-back/src/controller/AccountController.ts) les différentes routes qui peuvent être appelées par le front.
-Ainsi, si un navigateur envoie à l'adresse http://localhost:3000/account/create (qui est une adresse locale) une requête POST avec le body suivant : 
+Ainsi, si un navigateur envoie à l'adresse http://localhost:3000/account/create (qui est une adresse locale) une requête POST avec le body suivant :
 ```json
 {"login" : "test", "password" : "motdepasse"}
 ```
 Le contrôleur va récupérer ce body, le transformer en account grâce au dto, et l'envoyer dans le service des accounts pour lancer une procédure de création de compte.
 
-Envoyons des requêtes au serveur grâce au logiciel Insominia et observons les réponses : 
+Envoyons des requêtes au serveur grâce au logiciel Insominia et observons les réponses :
 
-On voit que si on envoie notre requête GET, le backend répond : 
+On voit que si on envoie notre requête GET, le backend répond :
 
 ![get](./get.png)
 
 Le mot de passe n'est pas dans la réponse, c'est ce que l'on veut.
 
-Si on essaie de créer un compte qui existe déjà, le backend répond : 
+Si on essaie de créer un compte qui existe déjà, le backend répond :
 
-![post](./post.png)  
+![post](./post.png)
 
 ### Création d'un account.
 
@@ -354,7 +354,7 @@ Pour cela, nous utilisons un formulaire. L'utilisateur rempli le formulaire et l
 
 il faut faire attention à ce que le frontend ne puisse pas avoir accès a des informations confidentielles, comme des mot de passe. On peut voir par exemple que si on essaie de créer un account dont le login existe déjà dans la base de donnée, le backend envoie au front l'account qui existe déjà, il n'envoie cependant que le login et non pas le mot de passe.
 
-Notre frontend ne donc qu'une interface qui permet d'envoyer facilement les requêtes au bon format, ainsi, on peut y faire exactement ce que l'on faisait quand on écrivait nos requêtes à la main, et recevoir les mêmes réponses : 
+Notre frontend ne donc qu'une interface qui permet d'envoyer facilement les requêtes au bon format, ainsi, on peut y faire exactement ce que l'on faisait quand on écrivait nos requêtes à la main, et recevoir les mêmes réponses :
 
 <div style = " display: grid;grid-template-columns: repeat(3, minmax(0, 1fr))">
 
@@ -365,15 +365,15 @@ Notre frontend ne donc qu'une interface qui permet d'envoyer facilement les requ
 </div>
 
 
-### Lancer le projet : 
+### Lancer le projet :
 
-Pour lancer le projet, il faut executer 
+Pour lancer le projet, il faut executer
 
 ```js
 // dans le répertoire du backend
 npm install
 docker-compose up -d
-npm start 
+npm start
 
 // dans le répertoire du frontend et dans un autre terminal
 npm install
@@ -384,7 +384,7 @@ npm run dev
 ## Pour aller plus loin :
 
 Ce site va servir de base pour un prochain projet ou je testerai des principes de cyber-sécurités.
-Pour cela il faut mettre en place  : 
+Pour cela il faut mettre en place  :
 - un moyen de se connecter avec un token de connexion.
 - un hachage des mots de passe pour qu'ils ne soient pa en clair dans la base de données.
 

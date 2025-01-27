@@ -18,7 +18,7 @@ Comment passer d'un site statique en local à un site publié sur un serveur gr�
 
 ## Prérequis
 
-Pour ce MON, je maitrisais déjà la partie front (html, CSS et javascript), je ne la traiterais donc pas dans ce MON. Mais il est possible de se former sur cette partie avec les [MON Dev Web](https://francoisbrucker.github.io/do-it/mon/GB/) de Gabriel Barbé.
+Pour ce MON, je maitrisais déjà la partie front (html, CSS et javascript), je ne la traiterais donc pas dans ce MON. Mais il est possible de se former sur cette partie avec les [MON Dev Web]({{ site.url }}/mon/GB/) de Gabriel Barbé.
 
 ## Serveur Web
 

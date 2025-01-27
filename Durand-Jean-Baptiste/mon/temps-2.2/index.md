@@ -55,7 +55,7 @@ Remarque, si les employés de l'entreprise utilisent un VPN, il ne sera pas poss
 - Dans le contexte de l'entreprise, le pare-feu pourrait se placer sur la box de l'entreprise, sur l'interface externe (interface qui relie la box au reste du monde).
 - Dans un contexte d'un aéroport où il y a un réseau public, et un réseau privé - pour permettre au clients d'accéder à internet et aux employés de communiquer avec les avions. Le réseau sera composé de **VLAN** (*Virtual Local Area Network*) pour éviter d'avoir les clients sur le même réseau que les employés. Les pare-feu peuvent se placer sur les différentes interfaces des VLAN du switch.
 
-Dans un monde où tout est sécurisé, chaque appareil devrait avoir son propre pare-feu, sur chacune de ses interfaces. Car si un utilisateur malveillant a réussi à contourner le pare-feu principal, tout ce qui est derrière peut-être vulnérable aux attaques. 
+Dans un monde où tout est sécurisé, chaque appareil devrait avoir son propre pare-feu, sur chacune de ses interfaces. Car si un utilisateur malveillant a réussi à contourner le pare-feu principal, tout ce qui est derrière peut-être vulnérable aux attaques.
 
 Il faut toujours se demander à qui est ce que je peux faire confiance ? Aux personnes sur mon box ? Tout internet ? À priori, il faudrait faire confiance à personne - à part à soit même.
 
@@ -127,7 +127,7 @@ J'ai mis en place 2 applications sur 2 ports :
 
 {% endnote %}
 
-Pour voir si mes services fonctionnent, et sont accessibles de l'extérieur, j'ai utilisé *nmap* (cf [explication de Thibault dessus](https://francoisbrucker.github.io/do-it/mon/TA/pentest)) un outil de scan de port.
+Pour voir si mes services fonctionnent, et sont accessibles de l'extérieur, j'ai utilisé *nmap* (cf [explication de Thibault dessus]({{ site.url }}/mon/TA/pentest)) un outil de scan de port.
 
 ```bash
 sudo nmap -A -T4 -p- 192.168.56.101
@@ -156,7 +156,7 @@ Donc par défaut, la machine virtuelle n'a pas protégé la connexion au site we
 <h3 id="h3-2"> Mise en place du pare-feu </h3>
 
 {% details "Petit conseil" %}
-Toutes les commandes nécessitent des droits *root*, pour éviter d'avoir à recopier *sudo* pour chacune des commandes, il est possible de se mettre en utilisateur *root* avec la commande : 
+Toutes les commandes nécessitent des droits *root*, pour éviter d'avoir à recopier *sudo* pour chacune des commandes, il est possible de se mettre en utilisateur *root* avec la commande :
 
 ```bash
 sudo su root
@@ -164,7 +164,7 @@ sudo su root
 {% attention "Il ne faut pas faire de chose qu'on ne maîtrise pas en étant *root*" %}
 {% endattention %}
 
-Pour sortir de *root*, on peut exécuter la commande 
+Pour sortir de *root*, on peut exécuter la commande
 
 ```bash
 exit
@@ -227,14 +227,14 @@ sudo ufw disable
 
 **Maintenant qu'on a mis en place le pare-feu, qu'est ce qu'on accéder depuis l'extérieur ?**
 
-Refaisons un scan des ports du serveur (avec *nmap*) : 
+Refaisons un scan des ports du serveur (avec *nmap*) :
 
 ```bash
 PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.1 (Ubuntu Linux; protocol 2.0)
 ```
 
-Heureusement, on a encore accès à SSH, et à priori, on n'a plus accès au site internet. 
+Heureusement, on a encore accès à SSH, et à priori, on n'a plus accès au site internet.
 
 On peut vérifier en essayant : http://192.168.56.101:8080
 
@@ -246,9 +246,9 @@ Dans un contexte d'entreprise, on veut pas que notre serveur ne soit pas accessi
 
 Il n'est pas possible d'accéder directement à la page web, car le port est fermé. Donc la seule option pour y accéder c'est une connexion SSH. Ça tombe bien, SSH c'est une technologie sécurisé, qui nécessite une authentification. On peut donner l'accès que à certains personnes, notamment les employés.
 
-On va créer un tunnel SSH entre le serveur distant et la machine de l'employé, et on va demander de rediriger le port de la machine distante sur la machine locale : 
+On va créer un tunnel SSH entre le serveur distant et la machine de l'employé, et on va demander de rediriger le port de la machine distante sur la machine locale :
 
-```bash 
+```bash
 ssh -L 8080:localhost:8080 username@server
 ```
 
@@ -273,9 +273,9 @@ Dans la partie *Desktop* de l'appareil, il y a une application, pour ajouter des
   </div>
 </div>
 
-Attention, dans la configuration du pare-feu, est demandé le [Wildcard mask](https://en.wikipedia.org/wiki/Wildcard_mask), qui est différent du subnet mask. L'idée du masque est la même mais, on a la relation : **Subnet Mask = *NOT* Wildcard Mask** : 
+Attention, dans la configuration du pare-feu, est demandé le [Wildcard mask](https://en.wikipedia.org/wiki/Wildcard_mask), qui est différent du subnet mask. L'idée du masque est la même mais, on a la relation : **Subnet Mask = *NOT* Wildcard Mask** :
 
-par exemple, 
+par exemple,
 
 *subnet mask/27 = 255.255.255.224 = 11111111.11111111.11111111.11100000 = NOT 00000000.00000000.00000000.00011111 = NOT 0.0.0.31 = NOT Wildcard Mask*
 

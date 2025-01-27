@@ -38,27 +38,27 @@ Ce MON présente différentes technologies front-end telles que les frameworks d
 
 - **Frameworks**
   - [[Documentation] React](https://fr.reactjs.org/docs/getting-started.html)
-  - [[MON] Débutez avec React](https://francoisbrucker.github.io/do-it/mon/royantk/temps_2/react/)
-  - [[MON] React (Thomas Pont)](https://francoisbrucker.github.io/do-it/mon/TP/mons/react/)
-  - [[MON] React intermédiaire (Nicolas BERT)](https://francoisbrucker.github.io/do-it/mon/NB/mes-mon/react/)
+  - [[MON] Débutez avec React]({{ site.url }}/mon/royantk/temps_2/react/)
+  - [[MON] React (Thomas Pont)]({{ site.url }}/mon/TP/mons/react/)
+  - [[MON] React intermédiaire (Nicolas BERT)]({{ site.url }}/mon/NB/mes-mon/react/)
   - [Vue - Site officiel](https://vuejs.org/)
   - [Svelte - Site officiel](https://svelte.dev/)
-  - [[MON] Dev Web 2 (Gabriel BARBE)](https://francoisbrucker.github.io/do-it/mon/GB/Mons/Devweb2/)
-  - [[MON] Web Front 1 (Antoine Varnerot)](https://francoisbrucker.github.io/do-it/mon/AV/mons/web-front-1/)
-  - [[MON] Portfolio Angular (Tuncay Bilgi)](https://francoisbrucker.github.io/do-it/mon/AV/mons/web-front-1/)
+  - [[MON] Dev Web 2 (Gabriel BARBE)]({{ site.url }}/mon/GB/Mons/Devweb2/)
+  - [[MON] Web Front 1 (Antoine Varnerot)]({{ site.url }}/mon/AV/mons/web-front-1/)
+  - [[MON] Portfolio Angular (Tuncay Bilgi)]({{ site.url }}/mon/AV/mons/web-front-1/)
   - [Angular - site officiel](https://angular.io/)
 - **Gestion des états**
   - [Redux-toolkit - site officiel](https://redux-toolkit.js.org/)
 - **Bibliothèques de composants**
   - [Bootstrap - Site officiel](https://getbootstrap.com/)
-  - [[MON] Web Front 1 (HTML, CSS, Bootstrap) (Jeffrey Edisah)](https://francoisbrucker.github.io/do-it/mon/JE/mons/webfront1/)
+  - [[MON] Web Front 1 (HTML, CSS, Bootstrap) (Jeffrey Edisah)]({{ site.url }}/mon/JE/mons/webfront1/)
   - [React-Bootstrap - Site officiel](https://react-bootstrap.github.io/)
   - [MUI - Site officiel](https://mui.com/)
 - **Outils CSS**
   - [SASS - Site officiel](https://sass-lang.com/)
-  - [[MON] CSS et introduction à SASS (Timothée Bermond)](https://francoisbrucker.github.io/do-it/mon/TB/Mes_MON/CSS/)
-  - [[MON] Sass (Antoine Varnerot)](https://francoisbrucker.github.io/do-it/mon/AV/mons/sass/)
-  - [[MON] Sass (Thomas Pont)](https://francoisbrucker.github.io/do-it/mon/TP/mons/sass/)
+  - [[MON] CSS et introduction à SASS (Timothée Bermond)]({{ site.url }}/mon/TB/Mes_MON/CSS/)
+  - [[MON] Sass (Antoine Varnerot)]({{ site.url }}/mon/AV/mons/sass/)
+  - [[MON] Sass (Thomas Pont)]({{ site.url }}/mon/TP/mons/sass/)
   - [TailwindCSS - Site officiel](https://tailwindcss.com/)
 - **Compilation du code**
   - [NextJS - Site officiel](https://nextjs.org/)
@@ -112,9 +112,9 @@ C'est pourquoi l'utilisation d'un framework, tel que React, Vue, Angular ou Svel
 {% chemin "**Ressources**" %}
 
 - [[Documentation] React](https://fr.reactjs.org/docs/getting-started.html)
-- [[MON] Débutez avec React](https://francoisbrucker.github.io/do-it/mon/royantk/temps_2/react/)
-- [[MON] React (Thomas Pont)](https://francoisbrucker.github.io/do-it/mon/TP/mons/react/)
-- [[MON] React intermédiaire (Nicolas BERT)](https://francoisbrucker.github.io/do-it/mon/NB/mes-mon/react/)
+- [[MON] Débutez avec React]({{ site.url }}/mon/royantk/temps_2/react/)
+- [[MON] React (Thomas Pont)]({{ site.url }}/mon/TP/mons/react/)
+- [[MON] React intermédiaire (Nicolas BERT)]({{ site.url }}/mon/NB/mes-mon/react/)
 
 {% endchemin %}
 
@@ -189,9 +189,9 @@ Dans cet exemple, nous utilisons la directive `@click` pour détecter les clics 
 
 {% chemin "**Ressources**" %}
 
-- [[MON] Dev Web 2 (Gabriel BARBE)](https://francoisbrucker.github.io/do-it/mon/GB/Mons/Devweb2/)
-- [[MON] Web Front 1 (Antoine Varnerot)](https://francoisbrucker.github.io/do-it/mon/AV/mons/web-front-1/)
-- [[MON] Portfolio Angular (Tuncay Bilgi)](https://francoisbrucker.github.io/do-it/mon/AV/mons/web-front-1/)
+- [[MON] Dev Web 2 (Gabriel BARBE)]({{ site.url }}/mon/GB/Mons/Devweb2/)
+- [[MON] Web Front 1 (Antoine Varnerot)]({{ site.url }}/mon/AV/mons/web-front-1/)
+- [[MON] Portfolio Angular (Tuncay Bilgi)]({{ site.url }}/mon/AV/mons/web-front-1/)
 - [Angular - site officiel](https://angular.io/)
 
 {% endchemin %}
@@ -331,7 +331,7 @@ En utilisant une bibliothèque de composants, les développeurs peuvent égaleme
 {% chemin "**Ressources**" %}
 
 - [Bootstrap - Site officiel](https://getbootstrap.com/)
-- [[MON] Web Front 1 (HTML, CSS, Bootstrap) (Jeffrey Edisah)](https://francoisbrucker.github.io/do-it/mon/JE/mons/webfront1/)
+- [[MON] Web Front 1 (HTML, CSS, Bootstrap) (Jeffrey Edisah)]({{ site.url }}/mon/JE/mons/webfront1/)
 
 {% endchemin %}
 
@@ -439,7 +439,7 @@ Le CSS peut rapidement devenir fastidieux et limité dans sa fonctionnalité. Po
 {% chemin "**Ressources**" %}
 
 - [TailwindCSS - Site officiel](https://tailwindcss.com/)
-- [[MON] Portfolio Angular (Tuncay Bilgi)](https://francoisbrucker.github.io/do-it/mon/AV/mons/web-front-1/)
+- [[MON] Portfolio Angular (Tuncay Bilgi)]({{ site.url }}/mon/AV/mons/web-front-1/)
 
 {% endchemin %}
 
@@ -459,7 +459,7 @@ Dans cet exemple, nous utilisons les classes `bg-blue-500`, `hover:bg-blue-700`,
 
 Tailwind propose des centaines de classes prédéfinies pour définir les styles CSS courants, tels que les espacements, la typographie, les couleurs, les bordures, les ombres, etc. Les développeurs peuvent également personnaliser les classes en utilisant des fichiers de configuration ou en les remplaçant par des classes personnalisées.
 
-Tailwind peut également être utilisé conjointement avec React ou d’autres bibliothèques comme Bootstrap et MUI. (J’en fais d’ailleurs une utilisation avec React et MUI dans [ce POK](https://francoisbrucker.github.io/do-it/pok/royantk/temps_3/))
+Tailwind peut également être utilisé conjointement avec React ou d’autres bibliothèques comme Bootstrap et MUI. (J’en fais d’ailleurs une utilisation avec React et MUI dans [ce POK]({{ site.url }}/pok/royantk/temps_3/))
 
 Pour React, par exemple, suffit de placer les classes dans l’attribut `className` :
 
@@ -479,9 +479,9 @@ export default function Nav({ children }) {
 
 {% chemin "**Ressources**" %}
 
-- [[MON] CSS et introduction à SASS (Timothée Bermond)](https://francoisbrucker.github.io/do-it/mon/TB/Mes_MON/CSS/)
-- [[MON] Sass (Antoine Varnerot)](https://francoisbrucker.github.io/do-it/mon/AV/mons/sass/)
-- [[MON] Sass (Thomas Pont)](https://francoisbrucker.github.io/do-it/mon/TP/mons/sass/)
+- [[MON] CSS et introduction à SASS (Timothée Bermond)]({{ site.url }}/mon/TB/Mes_MON/CSS/)
+- [[MON] Sass (Antoine Varnerot)]({{ site.url }}/mon/AV/mons/sass/)
+- [[MON] Sass (Thomas Pont)]({{ site.url }}/mon/TP/mons/sass/)
 - [SASS - Site officiel](https://sass-lang.com/)
 
 {% endchemin %}

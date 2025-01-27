@@ -24,7 +24,7 @@ résumé: "Ce POK présente le développement d’une plateforme simple de e-com
 
 - [👀 Voir le site en ligne](http://cerfeuil.ovh1.ec-m.fr:1234/)
 - [Le Github du POK](https://github.com/royantk/POK3)
-- [[MON] Débutez avec React](https://francoisbrucker.github.io/do-it/mon/royantk/temps_2/react/)
+- [[MON] Débutez avec React]({{ site.url }}/mon/royantk/temps_2/react/)
 - [[Documentation] React](https://fr.reactjs.org/docs/getting-started.html)
 - [[Documentation] React-Redux](https://react-redux.js.org/introduction/getting-started)
 - [[Documentation] Material Design UI (MUI)](https://mui.com/material-ui/getting-started/overview/)
@@ -299,7 +299,7 @@ export function Product(props) {
 
 Ce composant récupère l'ID du produit à partir des paramètres d'URL et affiche toutes les informations concernant ce composant de la même manière que le composant `CatalogItem`.
 
-Ensuite, nous allons déplacer notre page d’accueil dans un composant `Home`. 
+Ensuite, nous allons déplacer notre page d’accueil dans un composant `Home`.
 
 ```jsx
 import { Catalogue } from './Catalogue';
