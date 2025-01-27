@@ -20,7 +20,7 @@ Terminer le compilateur en ajoutant des fonctionnalités complexes (variables, b
 <!-- fin résumé -->
 
 {% prerequis "" %}
-La lecture de mon [premier MON](https://francoisbrucker.github.io/do-it/mon/JBD/Mes_MON/yaccLex/) sur le sujet n'est pas nécessaire pour la compréhension de ce MON mais est important pour la compréhension du projet.
+La lecture de mon [premier MON]({{ site.url }}/mon/JBD/Mes_MON/yaccLex/) sur le sujet n'est pas nécessaire pour la compréhension de ce MON mais est important pour la compréhension du projet.
 {% endprerequis %}
 
 <h2 id="toc"> Table des matières </h2>
@@ -116,7 +116,7 @@ function factoriel(let nb){
 **Rappel** : Yacc est un générateur d’analyseur syntaxique, il va, l'aide de Lex, reconstruire la structure du document, en retrouvant des pattern. Ex : pour comprendre qu'il y a une boucle *for*, Yacc va repérer le mot clé *for*, suivit de paramètres : initialisation de variable, condition d'arrêt, incrémentation.
 {% endnote %}
 
-Avec Yacc, on peut exécuter une commande C quand on reconnaît un pattern. Avant, quand le programme reconnaissait la fonction *print*, il affichait directement la valeur. 
+Avec Yacc, on peut exécuter une commande C quand on reconnaît un pattern. Avant, quand le programme reconnaissait la fonction *print*, il affichait directement la valeur.
 
 Maintenant, le programme stocke dans l'ordre les instructions, qui sont exécutées une fois l'analyse de Yacc faite.
 

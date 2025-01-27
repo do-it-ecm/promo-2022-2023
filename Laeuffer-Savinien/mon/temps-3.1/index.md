@@ -32,13 +32,13 @@ Comme nous avons déjà un cours de Docker lors de ce Temps 3, je me suis focali
 
 1. Concept d'architecture de microservices
 2. Rôle des conteneurs (Docker)
-3. Génération d'un Dockerfile 
+3. Génération d'un Dockerfile
 4. Utilité de Docker Compose
 5. Resources
 
 ## Concept d'architecture de microservices
 
-Le principe d'architecture de microservices est une méthode de développement logicielle qui consiste à décomposer une application en plusieurs parties que l'on appelle services. Chaque service est indépendant, de petite taille et possède sa propre fonction. Ils communiquent entre eux à l'aide d'API bien définies. Un scale-out, scale-in, des tests, peuvent être menés sur chacun des services indépendemment. 
+Le principe d'architecture de microservices est une méthode de développement logicielle qui consiste à décomposer une application en plusieurs parties que l'on appelle services. Chaque service est indépendant, de petite taille et possède sa propre fonction. Ils communiquent entre eux à l'aide d'API bien définies. Un scale-out, scale-in, des tests, peuvent être menés sur chacun des services indépendemment.
 
 <div style="width:100%;">
   <figure style="text-align:center">
@@ -84,7 +84,7 @@ Docker est un projet open source qui permet la création de ce types de conteneu
 </div>
 
 
-## Génération d'un Dockerfile 
+## Génération d'un Dockerfile
 
 Microsoft Learn nous fournit un dépôt GitHub contenant un site web et une API back-end que l'on peut clôner afin de s'initier à la conteneurisation.
 Ce repository est accessible à l'adresse suivate:
@@ -145,25 +145,25 @@ Dans VS Code, toujours dans le même répertoire, on peut trouver un fichier ```
 ```yml
 version: '3.4'
 
-services: 
+services:
 
   frontend:
     image: pizzafrontend
     build:
       context: frontend
       dockerfile: Dockerfile
-    environment: 
+    environment:
       - backendUrl=http://backend
     ports:
       - "5902:80"
-    depends_on: 
+    depends_on:
       - backend
   backend:
     image: pizzabackend
-    build: 
+    build:
       context: backend
       dockerfile: Dockerfile
-    ports: 
+    ports:
       - "5000:80"
 ```
 
@@ -182,7 +182,7 @@ Nous avons donc réussi à conteneuriser le service d'API et le front-end sépar
 
 ## Resources
 
-- [MON de Nicolas Bert](https://francoisbrucker.github.io/do-it/mon/NB/mes-mon/microservices/)
+- [MON de Nicolas Bert]({{ site.url }}/mon/NB/mes-mon/microservices/)
 - [Microservices Wikipedia](https://fr.wikipedia.org/wiki/Microservices)
 - [What are microservices, Redhat](https://www.redhat.com/fr/topics/microservices/what-are-microservices)
 - [Que sont les microservices ?, Microsoft Learn](https://learn.microsoft.com/fr-fr/training/modules/dotnet-microservices/2-what-are-microservices?ns-enrollment-type=learningpath&ns-enrollment-id=learn.dotnet.create-microservices-with-dotnet)

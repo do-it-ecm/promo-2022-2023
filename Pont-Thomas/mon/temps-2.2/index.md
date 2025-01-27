@@ -26,8 +26,8 @@ Ce MON est destiné à des personnes de niveau **intermédiaire** en connaissanc
 {%prerequis%}
 Les différents MONs suivants parlent des bases en CSS :
 
-- [MON de Louise](https://francoisbrucker.github.io/do-it/mon/LG/MON2/)
-- [MON de Nathan](https://francoisbrucker.github.io/do-it/mon/NG/mon-1-1/)
+- [MON de Louise]({{ site.url }}/mon/LG/MON2/)
+- [MON de Nathan]({{ site.url }}/mon/NG/mon-1-1/)
 
 {%endprerequis%}
 

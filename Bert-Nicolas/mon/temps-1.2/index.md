@@ -57,29 +57,29 @@ J'ai d'abord commencé par créer une classe Character représentant un personna
 
 ```python
 class Character:
-    
+
     def __init__(self, name, hp):
         self.__name = name;
         self.__hp = hp;
 
     def getName(self):
         return self.__name
-    
+
     def getHp(self):
         return self.__hp
 
     def loseHp(self, damage):
         self.__hp -= damage
-    
+
     def gainHp(self, heal):
         self.__hp += heal
 
     def display(self):
         print(type(self).__name__  + " " + self.getName())
-        print('- HP : ' + str(self.getHp()))   
+        print('- HP : ' + str(self.getHp()))
 ```
 
-La notation `__attribut` "permet" de gérer des attributs privés mais ce n'est qu'une facette puisqu'en réalité ces attributs ne sont pas privés. On garde tout de même cette syntaxe et les getters/setters pour respecter le principe Open/Closed (cf [MON de Tuncay](https://francoisbrucker.github.io/do-it/mon/TBi/MON/POO/))
+La notation `__attribut` "permet" de gérer des attributs privés mais ce n'est qu'une facette puisqu'en réalité ces attributs ne sont pas privés. On garde tout de même cette syntaxe et les getters/setters pour respecter le principe Open/Closed (cf [MON de Tuncay]({{ site.url }}/mon/TBi/MON/POO/))
 
 ### La classe Dwarf
 
@@ -89,7 +89,7 @@ J'ai ensuite créé la classe Dwarf qui hérite de la classe Character qui repr�
 from Character import *
 
 class Dwarf(Character):
-    
+
     def __init__(self, name, hp=80):
         super().__init__(name, hp)  # on appelle le constructeur de la classe parente
         self.__damage = 20
@@ -131,7 +131,7 @@ class Magician(Character):
         print("- Mana : " + str(self.getMana()))
         print("- Spell cost : " + str(self.__spellCost))
         print("- Damage : " + str(self.__damage))
-    
+
     def getMana(self):
         return self.__mana
 
@@ -142,12 +142,12 @@ class Magician(Character):
         else:
             print('Vous gagner 30 points de mana')
             self.__mana += 30
-        
+
     def heal(self):
         if checkMana(self, self.__spellCost):
             self.gainHp(40)
             self.__mana -= self.__spellCost
-      
+
 ```
 
 Les relations entre les classes sont résumées dans le diagramme UML suivant.

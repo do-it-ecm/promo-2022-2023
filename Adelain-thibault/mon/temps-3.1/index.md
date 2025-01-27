@@ -9,7 +9,7 @@ date: 2023-03-23
 
 temps: 3
 tags:
-  - 'linux' 
+  - 'linux'
   - 'formation'
 ---
 
@@ -51,7 +51,7 @@ Cette formation est dense et riche d'informations (dure normalement 70 heures). 
 
 J'ai trouvé surtout intéressant la deuxième partie, après le middle-exam, en particulier :
 
-- Scripting. Je vous renvoie au MON de Thomas sur [bash](https://francoisbrucker.github.io/do-it/mon/TP/mons/bash/).
+- Scripting. Je vous renvoie au MON de Thomas sur [bash]({{ site.url }}/mon/TP/mons/bash/).
 - Computer hardware : *"En gardant les machines virtuelles à l'esprit, il est impératif de comprendre ce qui constitue le matériel physique d'un ordinateur. Si vous ne comprenez pas quels sont les composants d'un ordinateur, comment ils sont intégrés et communiquent entre eux, et comment un ordinateur doit fonctionner, vous ne pouvez pas installer, configurer, administrer, sécuriser ou dépanner correctement un système."*
 - Where data is stored : gestion des processus, de la mémoire, des partitions.
 - Network configuration : commandes et fichiers de configuration réseau.

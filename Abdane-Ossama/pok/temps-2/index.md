@@ -13,17 +13,17 @@ tags:
 
 ## Objectif
 L'objectif de ce POK est d'approfondir les bases de création acquise lors du temps 1. L'idée est de suivre le tutoriel créé par Nicolas pour son MON : "Créer un site web statique avec 11ty". Pour ainsi découvrir un nouveau moyen de créer un site internet.
-Dans un deuxième temps, j'ai réalisé une comparaison entre la création d'un site avec eleventy et WordPress (réalisée dans mon MON2.2). 
+Dans un deuxième temps, j'ai réalisé une comparaison entre la création d'un site avec eleventy et WordPress (réalisée dans mon MON2.2).
 
-## Création d'un site avec Eleventy  
+## Création d'un site avec Eleventy
 
 Le MON de Nicolas a été très  et complet pour la création d'un site statique basique. En le suivant, j'ai pu créer facilemnt un premier site simple.
 
 {% info %}
-Une formation **html** peut être nécessaire pour mieux comprendre et réaliser des templates.  
+Une formation **html** peut être nécessaire pour mieux comprendre et réaliser des templates.
 {% endinfo %}
 
-## Eleventy 
+## Eleventy
 
 ### Avantages
 
@@ -32,7 +32,7 @@ Une formation **html** peut être nécessaire pour mieux comprendre et réaliser
 * Peut être utilisé avec n'importe quel type de fichier : Eleventy est un générateur de site statique qui peut utiliser n'importe quel type de fichier pour générer votre site web. Cela signifie que vous pouvez utiliser des fichiers Markdown, JSON, YAML, etc. pour créer votre contenu, ce qui est particulièrement utile pour les sites web de documentation ou les blogs.
 
 
-### Inconvénients 
+### Inconvénients
 
 * Pas autant de fonctionnalités que WordPress : Eleventy est un générateur de site statique, il est donc moins capable de fournir les fonctionnalités avancées que vous pourriez trouver dans un système de gestion de contenu comme WordPress, comme les formulaires de contact, les commentaires, les médias, etc.
 * Moins de support et de communauté : Eleventy est un projet open-source relativement nouveau comparé à WordPress, il y a donc moins de support et de communauté disponible pour résoudre les problèmes ou pour obtenir de l'aide.
@@ -43,7 +43,7 @@ Une formation **html** peut être nécessaire pour mieux comprendre et réaliser
 * Snipcart : https://snipcart.com/fr
 * Smashing Magazine : https://www.smashingmagazine.com
 
-## WordPress 
+## WordPress
 
 ### Avantages
 
@@ -51,7 +51,7 @@ Une formation **html** peut être nécessaire pour mieux comprendre et réaliser
 * Grande variété de fonctionnalités et d'extensions : WordPress est un système de gestion de contenu très populaire et bien supporté, il y a donc une grande variété de fonctionnalités et d'extensions disponibles pour ajouter des fonctionnalités supplémentaires à votre site web, comme des formulaires de contact, des commentaires, des médias, etc. Il existe également de nombreux thèmes et plugins gratuits ou payants disponibles pour personnaliser l'apparence et les fonctionnalités de votre site web.
 * Bien supporté et grande communauté d'utilisateurs et de développeurs : WordPress est un projet open-source très populaire et bien supporté, il y a donc une grande communauté d'utilisateurs et de développeurs qui peuvent aider à résoudre les problèmes et fournir de l'aide. Il y a également beaucoup de documentation et de tutoriel disponible pour apprendre à utiliser WordPress.
 
-### Inconvénients 
+### Inconvénients
 
 * Peut être plus lourd et moins performant que les sites statiques : Comme WordPress génère des sites dynamiques qui nécessitent des requêtes de base de données et des scripts PHP pour charger le contenu, ils peuvent être plus lents à charger pour les utilisateurs que les sites statiques générés par Eleventy.
 * Moins de flexibilité en termes de mise en page : Bien que WordPress permet de personnaliser l'apparence de votre site web à l'aide de thèmes et de plugins, il peut être moins flexible que Eleventy en termes de mise en page car il est basé sur des templates prédéfinis.
@@ -64,7 +64,7 @@ Une formation **html** peut être nécessaire pour mieux comprendre et réaliser
 * Forbes : https://www.forbes.fr
 
 
-## Cadre opportun d'utilisation 
+## Cadre opportun d'utilisation
 
 ### Pour Eleventy :
 
@@ -89,10 +89,10 @@ Il est tout à fait possible de combiner les avantages d'Eleventy et de WordPres
 
 Il est important de noter que combiner Eleventy et WordPress nécessite une certaine expertise technique pour configurer et maintenir les deux systèmes, mais cela permet de créer un site web qui répond parfaitement à vos besoins en termes de performance et de fonctionnalités.
 
-## Ressources utilisées 
+## Ressources utilisées
 
 * Site Eleventy : https://www.11ty.dev
 * Tutoriel youtube : https://www.youtube.com/watch?v=BKdQEXqfFA0
-* MON de Nicolas : https://francoisbrucker.github.io/do-it/mon/NB/mes-mon/statique-eleventy/
+* MON de Nicolas : {{ site.url }}/mon/NB/mes-mon/statique-eleventy/
 * WordPress contre 11ty : Quel est le meilleur ? : https://targettrend.com/fr/wordpress-vs-11ty/
 * Kinsta : https://kinsta.com/fr/blog/generateurs-de-sites-statiques/

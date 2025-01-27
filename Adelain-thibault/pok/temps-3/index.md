@@ -21,7 +21,7 @@ Mon site : <http://node.stevia.ovh1.ec-m.fr/>
 
 #### Déroulement
 
-Contrairement au déploiement précédent, j'ai décidé d'opter pour une solution de déploiement avec conteneur [Docker](https://docker.com/) pour apprendre à manipuler l'outil. J'ai utilisé la [documentation](https://docs.docker.com/get-started/) officielle en suivant le tuto, ainsi que le [MON de Tuncay](https://francoisbrucker.github.io/do-it/mon/TBi/MON/Docker/).
+Contrairement au déploiement précédent, j'ai décidé d'opter pour une solution de déploiement avec conteneur [Docker](https://docker.com/) pour apprendre à manipuler l'outil. J'ai utilisé la [documentation](https://docs.docker.com/get-started/) officielle en suivant le tuto, ainsi que le [MON de Tuncay]({{ site.url }}/mon/TBi/MON/Docker/).
 
 En adaptant le tuto, pour bien comprendre le fonctionnement de Docker, j'ai d'abord créer des containers séparés pour mon front et mon back. Voici un exemple de dockerfile pour mon backend :
 
@@ -118,5 +118,5 @@ Par ce qu'une image vaut mille mots :
 
 #### Tuto
 
-- MON de Tuncay : <https://francoisbrucker.github.io/do-it/mon/TBi/MON/Docker/>.
+- MON de Tuncay : <{{ site.url }}/mon/TBi/MON/Docker/>.
 - Documentation + tuto Docker : <https://docs.docker.com/get-started/>

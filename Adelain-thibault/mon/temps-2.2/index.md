@@ -32,7 +32,7 @@ Ce MON est dédier à la mise en place d'un environnement pour réaliser des tes
 
 Il va nous falloir mettre en place deux machines virtuelles : une VM attaquant, et une VM cible.
 
-Il y a plusieurs raisons d'utiliser des machines virtuelles pour notre environnement de hacking. En voici quelques-unes :  
+Il y a plusieurs raisons d'utiliser des machines virtuelles pour notre environnement de hacking. En voici quelques-unes :
 
 - Sécurité par l'isolation: en utilisant une machine virtuelle, nous pouvons créer un système d'exploitation "cible" séparé de notre ordinateur hôte, ce qui permet de mieux isoler les tests et d'éviter que les résultats ne soient influencés par des logiciels ou des paramètres sur notre machine hôte. Réciproquement, la machine virtuelle "cible", victime de l'attaque, peut également parfois contrer les attaques, et ainsi endommager la machine de l'attaquant, d'où l'importance d'avoir une VM attaquant et une VM cible. Cela permet de protéger notre  ordinateur et de ne pas causer de dommages à d'autres systèmes ou réseaux. De plus, nous pourrons isoler notre environnement de hacking sur un réseau virtuel, afin qu'aucune machine extérieure puisse influencer notre environnement.
 - Plus généralement : Facilité de configuration des VM, coût (pas besoin d'acheter des ordinateurs), choix d'allocation des ressources...
@@ -68,7 +68,7 @@ Les tests de pénétration sont généralement effectués en suivant plusieurs �
 
 #### Outils
 
-Quelques outils proposés par Kasimir : <https://francoisbrucker.github.io/do-it/pok/KR/POK2/hacking/>
+Quelques outils proposés par Kasimir : <{{ site.url }}/pok/KR/POK2/hacking/>
 
 ##### Maîtriser l'environnement Linux
 

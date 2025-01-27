@@ -20,8 +20,8 @@ tags:
 
 Dans ce POK, nous allons améliorer mon projet précédent : l'Artblog, en lui ajoutant de nouvelles pages et en créant un environnement d'intégration et de déploiement continue.
 
-{% prerequis 'Niveau avancé ' %} 
-C'est un POK avancé car il met en relation plusieurs technologies différentes qu'il faut donc connaître, il demande de solides bases en : 
+{% prerequis 'Niveau avancé ' %}
+C'est un POK avancé car il met en relation plusieurs technologies différentes qu'il faut donc connaître, il demande de solides bases en :
 
 - Linux et shell
 - Développement web fullstack
@@ -33,17 +33,17 @@ C'est un POK avancé car il met en relation plusieurs technologies différentes 
 
  {%details "Ce POK ce base sur plusieurs MON et POK qui ont précédés, voici la liste des projets dont j'ai eu besoin." %}
 
-  - Le projet sur lequel ce POK se base : Artblog - [Dev du Blog](https://francoisbrucker.github.io/do-it/pok/un-site-chez-moi/TBi/Artblog/) | [Mise sur Site distant](https://francoisbrucker.github.io/do-it/pok/un-site-chez-moi/TBi/ServeurDistant/)
-  - Le MON introduisant [Docker](https://francoisbrucker.github.io/do-it/mon/TBi/MON/Docker/)
-  - Le Mon introduisant [Jenkins](https://francoisbrucker.github.io/do-it/mon/TBi/MON/Jenkins/)
+  - Le projet sur lequel ce POK se base : Artblog - [Dev du Blog]({{ site.url }}/pok/un-site-chez-moi/TBi/Artblog/) | [Mise sur Site distant]({{ site.url }}/pok/un-site-chez-moi/TBi/ServeurDistant/)
+  - Le MON introduisant [Docker]({{ site.url }}/mon/TBi/MON/Docker/)
+  - Le Mon introduisant [Jenkins]({{ site.url }}/mon/TBi/MON/Jenkins/)
 
  {% enddetails %}
 
  Enfin, voici le lien du [repository GitHub](https://github.com/TuncayBilgi/artblog) où vous pourrez trouver tous le code.
 
-## Introduction : 
+## Introduction :
 
-### Point de départ : 
+### Point de départ :
 
  Le Artblog est un projet de blog que j'ai mené toute l'année scolaire. Voici un résumé de ce qui à été fait jusqu'ici :
 
@@ -53,7 +53,7 @@ C'est un POK avancé car il met en relation plusieurs technologies différentes 
 - Ajout d'un script de déploiement qui permet de mettre le site à jour en ligne automatiquement.
 - Ajout d'une instance Jenkins pour, plus tard, automatiser la production.
 
-### Ce qu'il reste à faire : 
+### Ce qu'il reste à faire :
 
   Nous allons finir de mettre en place l'automatisation autour du projet.
   Le but final est d'avoir un site disponible sur internet. Quand un développeur ajoute une fonctionnalité ou corrige un bug, un serveur détecte automatiquement qu'il y des changements qui ne sont pas sur internet. A ce moment, il effectue une batterie de tests sur le code source, si les tests passent, le serveur déploie automatiquement la nouvelle version sur le net.
@@ -62,13 +62,13 @@ C'est un POK avancé car il met en relation plusieurs technologies différentes 
 
   - Mettre en place Jest pour incorporer des tests dans l'application.
   - Coder une nouvelle fonctionnalité en TDD.
-  
-  Au second sprint : 
+
+  Au second sprint :
 
   - Mettre en place le script Jenkins.
   - Tester l'intégration de bout en bout.
 
-### Réalisation des sprints : 
+### Réalisation des sprints :
 
 La Todo des sprints était volontairement vague car le temps manque trop en fin d'année et il est bon de se concentrer sur l'essentiel des tâches et ajouter des détails si on a du temps en trop, ce qui n'a pas été mon cas. J'ai néanmoins pus atteindre mes objectifs fixés.
 
@@ -76,16 +76,16 @@ Le résultat est un blog qui fonctionne bien, quoiqu'avec parfois trop de latenc
 
 ## Premier Sprint :
 
-### Ajout de Jest : 
+### Ajout de Jest :
 
-On installe Jest pour pouvoir créer des tests unitaires : 
+On installe Jest pour pouvoir créer des tests unitaires :
 
 `npm install --save-dev jest`
 
 Jest est très pratique, il permet de lancer tous les tests contenues dans les fichiers présents dans le répertoire {%raw%}"__tests__"{%endraw%}
 
 La batterie de tests se lance avec `npx jest`, que l'on eut ajouter dans le config.json pour utiliser `npm run test`.
-le fichier config.json ressemble alors à cela : 
+le fichier config.json ressemble alors à cela :
 
 ```json
 {"scripts": {
@@ -101,7 +101,7 @@ Ensuite on créer un dossier {%raw%}__tests__{%endraw%} à la racine et on y cr�
 Jest utilise des méthodes built-in pour tester pleins de choses différentes, allez voir la documentation sur internet pour savoir lesquelles utiliser.
 
 {%attention%}
-Par défaut Jest utilise la syntaxe `const a = require('./module')` qui n'est pas compatible avec le reste du projet qui lui est en ES6 et donc utilise la syntaxe suivante `import {a} from module` 
+Par défaut Jest utilise la syntaxe `const a = require('./module')` qui n'est pas compatible avec le reste du projet qui lui est en ES6 et donc utilise la syntaxe suivante `import {a} from module`
 {%endattention%}
 
 Pour pallier ce problème, on créer un fichier de configuration jest qui vient supplanté la configuration par défaut et qui demande à jest d'utiliser ES6 : config.jest
@@ -122,7 +122,7 @@ Nous voilà prêt pour la TDD!
 
 Je veux ajouter une série de pages dynamiques. On clique sur une catégorie de publication, cela nous redirige vers une page qui liste tous les posts possédant cette catégorie.
 
-Pour ce faire, on commence par écrire les tests qui devront être validés par le code de la nouvelle fonctionnalité : 
+Pour ce faire, on commence par écrire les tests qui devront être validés par le code de la nouvelle fonctionnalité :
 
 ```js
 import { getCategories,getPostsByCat } from "../services"
@@ -137,9 +137,9 @@ test(
 
 Ce test s'assure que les informations fetcher sont sous le bon format et qu'elle sont bien cohérentes.
 
-Maintenant, il faut implémenter le code qui valide le test, ici il nous faut une fonction qui renvoie les données demander, c'est un fetch.: 
+Maintenant, il faut implémenter le code qui valide le test, ici il nous faut une fonction qui renvoie les données demander, c'est un fetch.:
 
-- Implémentation minimale : 
+- Implémentation minimale :
 ```js
 function getCategories() {
   return {name :'Sculpture',slug:'sculpture'}
@@ -147,7 +147,7 @@ function getCategories() {
 ```
 Cette implémentation paraît débile, mais si vous coder en équipe, elle permet de valider le test ET de laisser à vous collègue la possibilité de coder le front en ayant une idée de la structure de données à laquelle le code doit s'attendre.
 
-- Implémentation finale : 
+- Implémentation finale :
 C'est une requête graphQL il n'y à pas d’intérêt à la coller ici.
 
 Après ça, on code le front, allez voir le premier POK ou des MON Reacts pour des tutos détaillés sur comment faire. Voici les résultats :
@@ -168,9 +168,9 @@ Mais je n'ai pas le temps pour ces options, on passe à la suite.
 
 ## Second sprint :
 
-### Jenkins : 
+### Jenkins :
 La mise en place de Jenkins dans un container peut être vu dans le MON sur Jenkins.
-Néanmoins, cette mise en place possède plusieurs problème : 
+Néanmoins, cette mise en place possède plusieurs problème :
 
 - Jenkins ne possède même pas les librairies nécessaires pour faire tourner le projet.
 - Jenkins ne possède pas les droits et les clés nécessaires pour faire quoi que ce soit.
@@ -178,13 +178,13 @@ Néanmoins, cette mise en place possède plusieurs problème :
 
 On y va dans l'ordre.
 
-#### L'installation propre : 
+#### L'installation propre :
 
 Jenkins à besoin de node, de git,de ssh etc... pour faire tourner le projet.
 Dans le MON Jenkins on avait créer un conteneur Jenkins en prenant simplement l'image officielle.
 Ici, nous allons utiliser l'image officielle alpine (basée sur Linux alpine) a laquelle j'ajoute node et tmux (je n'ai pas eu besoin de tmux).
 
-Voici le dockerfile : 
+Voici le dockerfile :
 
 ```dockerfile
 FROM jenkins/jenkins:lts-alpine-jdk11
@@ -198,7 +198,7 @@ USER jenkins
 
 ```
 
-et le docker-compose qui s'occupe des connexions : 
+et le docker-compose qui s'occupe des connexions :
 
 ```yml
 version: '3'
@@ -218,7 +218,7 @@ volumes:
 ```
 Grâce à cela on à un conteneur qui contient Jenkins et qui enregistre ces données entre deux lancements.
 
-#### Les secrets : 
+#### Les secrets :
 
 Tous d'abord on donne à Jenkins, dans la partie **manage credentials** les clés nécessaires à faire fonctionner et à déployer le projet.
 
@@ -237,34 +237,34 @@ Ne donnez pas non plus accès à ovh1 à votre repository github!
 Ces secrets sont accessible depuis le Jenkinsfile grâce aux méthodes withcredentials() et on peut communiquer en ssh avec le ssh-agent, je vous invite à lire la doc Jenkins, même si elle est parfois lunaire.
 {%endinfo%}
 
-- Résultats : 
+- Résultats :
 <img src="./../images/jenkins-cred.png" alt="credentials" />
 
 
 
 
-#### Le jenkinsfile : 
+#### Le jenkinsfile :
 
 Le [jenkinsfile](https://github.com/TuncayBilgi/artblog/blob/main/Jenkinsfile) est le fichier dont va se servir Jenkins pour executer votre Pipeline, voir le MON Jenkins si jamais vous ne l'avez pas encore fait.
 Je ne détaille pas le code, il est disponible sur le repository de mon projet sur Github.
 
 {%attention%}
-Jenkins est une machine à gaz très capricieuse. Avec des milliers de plugins, et plus d'une dizaine année d’existence, il existe des millions de manières différentes de faire la même chose, et quand vous en choisissez une, ça ne marche pas. 
+Jenkins est une machine à gaz très capricieuse. Avec des milliers de plugins, et plus d'une dizaine année d’existence, il existe des millions de manières différentes de faire la même chose, et quand vous en choisissez une, ça ne marche pas.
 Évitez les interactions complexes entre Jenkins et d'autres site. Si vous voulez faire quelque chose qui existe utilisez ce qui existe déjà, et sinon bon courage.
 {%endattention%}
 
-Ici, on choisit la méthode suivante : 
+Ici, on choisit la méthode suivante :
 - Toutes les heures le job de Jenkins démarre.
 - Jenkins possède une liste qui contient les hash des commits de mon projet.
-- Il pull la dernière version du main du Github mon Projet. 
-- Il regarde le hash du dernier commit sur main. 
-- Si ce hash n'est pas dans la liste, cela veut dire que le projet n'est pas déployé, il réalises doc plusieurs tâches : 
+- Il pull la dernière version du main du Github mon Projet.
+- Il regarde le hash du dernier commit sur main.
+- Si ce hash n'est pas dans la liste, cela veut dire que le projet n'est pas déployé, il réalises doc plusieurs tâches :
   - Il lance 'npx jest' pour tester la dernière version du projet.
   - Si les tests passent, il déploie le projet grâce à mon script qui date du POK d'avant sur ovh1 en se connectant par ssh.
   - si le déploiement c'est déroulé sans encombre, il ajoute le hash du dernier commit dans sa liste.
 - Si ce hash est déjà dans la liste, Jenkins ne fait rien, il n'y a rien besoin de faire.
 
-On met en place tout ça et voici les résultat : 
+On met en place tout ça et voici les résultat :
 
 <div style = " display: grid;grid-template-columns: repeat(3, minmax(0, 1fr))">
 
@@ -279,7 +279,7 @@ On peut voir, de gauche à droite, que Jenkins repère les différents commits, 
 ### Conclusions sprint 2 :
 
 l’utilisation de jenkins n'est pas une chose aisée, et je vous épargne toutes les autres solutions que j'ai testé avant d'arriver à celle-ci qui est juste convenable. Cependant, une bonne partie de ceci serait plus simple si jenkins était un serveur ayant accès à un réseau, comme ça devrait être le cas normalement.
-J'ai pris le temps de réaliser l'essentiel de ce que je voulais, on pourrai aller plus loin en : 
+J'ai pris le temps de réaliser l'essentiel de ce que je voulais, on pourrai aller plus loin en :
 
 - Mettant en place une messagerie qui envoie un mail si la pipeline est cassée.
 - Mettant en place une seconde pipeline qui s'occupe seulement de verifier que le site est disponible sur internet et qui le redéploie sinon, sans build (c'est possible facilement grâce à l'implémentation de mon script).
