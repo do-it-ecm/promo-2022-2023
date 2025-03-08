@@ -3,14 +3,15 @@ layout: layout/mon.njk
 
 title: "Organisation du Barbecue de fin d'option Do-IT"
 authors:
-    - "Eugénie Giraud-Telme"
-
-temps: 3
-tags: 
-    - 'organisation'
-    - 'gestion de projet'
+  - Eugénie Giraud-Telme
 
 date: 2023-04-05
+temps: 3
+tags:
+  - 'organisation'
+  - 'gestion de projet'
+
+résumé: "Ce MON est un peu à part. Il s'agit de l'organisation du repas du 06/04/2023 au cours duquel aura lieu le débrief général de l'année."
 ---
 <!-- Début Résumé -->
 - Ce MON est un peu à part. Il s'agit de l'organisation du repas du 06/04/2023 au cours duquel aura lieu le débrief général de l'année.
