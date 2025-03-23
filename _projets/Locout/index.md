@@ -6,7 +6,7 @@ authors:
   - Antoine Varnerot
   - Savinien Laeuffer
   - Gabriel Barbé
-résumé: "Application de réservation et de gestion de terrains de foot indoor"
+description: "Application de réservation et de gestion de terrains de foot indoor"
 ---
 
 <head>
@@ -48,26 +48,26 @@ Nous nous servons aussi de plusieurs librairies/packages qui nous permettent de 
   <figcaption>Poster de présentation du projet</figcaption>
 </figure>
 
-## Maquette 
+## Maquette
 ### Solution mobile
-Les cours de UI/UX design dispensés cette année dans le cadre du parcours do-it nous ont permis de penser nos différents designs à travers différentes maquettes sur le site Figma. 
-Nous avons commencé par penser l'application mobile que l'on souhaitait et nous en avons désigné les différentes pages : 
+Les cours de UI/UX design dispensés cette année dans le cadre du parcours do-it nous ont permis de penser nos différents designs à travers différentes maquettes sur le site Figma.
+Nous avons commencé par penser l'application mobile que l'on souhaitait et nous en avons désigné les différentes pages :
 <figure>
 <img src="./assets/Maquettea.png">
 <img src="./assets/Maquetteb.png">
 </figure>
-Nous avons désigné ces pages en accord avec le brief graphique effectué en amont, les valeurs que nous voulions reflétés sont : facilité, visibilité et temps optimisé. Nous voulions que cette application soit intuitive et corresponde à ce que les gens ont l'habitude d'utiliser. 
+Nous avons désigné ces pages en accord avec le brief graphique effectué en amont, les valeurs que nous voulions reflétés sont : facilité, visibilité et temps optimisé. Nous voulions que cette application soit intuitive et corresponde à ce que les gens ont l'habitude d'utiliser.
 De plus, le vert principal utilisé reflète, à notre sens, une couleur énergique.
 
 Nous avons ensuite défini que cette application mobile n'était pas suffisante pour les particuliers et que nous souhaitions aussi avoir un site web donnant plus de visibilité à notre solution. De plus, nous devions aussi développer une solution de gestion pour les professionnels adoptant notre solution. Nous nous sommes donc attachés à désigner nos solutions "desktop".
 
-### Solution Desktop pour les particuliers 
-De manière assez simple, nous avons choisi d'adapter simplement notre interface mobile sur un format desktop. Nous n'avons donc pas produit beaucoup d'interface : 
+### Solution Desktop pour les particuliers
+De manière assez simple, nous avons choisi d'adapter simplement notre interface mobile sur un format desktop. Nous n'avons donc pas produit beaucoup d'interface :
 <img src="./assets/Client.png">
 ### Solution Desktop pour les professionnels
 Notre approche consistait, toujours en accord avec nos valeurs, à rendre notre solution la plus simple possible. Dans cette optique, nous avons choisi une page d'accueil épurée donnant accès aux différents services de notre solution qui sont : la gestion du planning, un formulaire de contact, un dashboard contenant les principales statistiques (voir plus bas) et un onglet paramètres.
 <img src="./assets/Interface.png">
-Nos différentes interfaces sont bien sur en accord avec notre charte graphique et les couleurs apparaissant notamment dans le planning ont été testé sur adobe color afin de vérifier que celles-ci soient bien complémentaires. Vous pouvez voir ci-dessous nos différents visuels : 
+Nos différentes interfaces sont bien sur en accord avec notre charte graphique et les couleurs apparaissant notamment dans le planning ont été testé sur adobe color afin de vérifier que celles-ci soient bien complémentaires. Vous pouvez voir ci-dessous nos différents visuels :
 <img src="./assets/Pro.png">
 
 ## Business Model
@@ -77,7 +77,7 @@ Nos différentes interfaces sont bien sur en accord avec notre charte graphique 
 <figcaption>Business Model du projet Loc'out</figcaption>
 </figure>
 
-## Développement du site 
-### Front-end 
+## Développement du site
+### Front-end
 
 ### Back-end

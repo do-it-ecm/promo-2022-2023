@@ -11,7 +11,7 @@ tags:
   - 'organisation'
   - 'gestion de projet'
 
-résumé: "Ce MON est un peu à part. Il s'agit de l'organisation du repas du 06/04/2023 au cours duquel aura lieu le débrief général de l'année."
+description: "Ce MON est un peu à part. Il s'agit de l'organisation du repas du 06/04/2023 au cours duquel aura lieu le débrief général de l'année."
 ---
 <!-- Début Résumé -->
 - Ce MON est un peu à part. Il s'agit de l'organisation du repas du 06/04/2023 au cours duquel aura lieu le débrief général de l'année.
